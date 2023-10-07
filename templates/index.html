@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crop Images</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/body.css') }}">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+           <a class="note" href="{{ url_for('command') }}">Command</a>&nbsp;&nbsp; |&nbsp;&nbsp;
+           <a class="note" href="{{ url_for('mpegit') }}">Mpegit</a>&nbsp;&nbsp; |&nbsp;&nbsp;
+           <a class="note" href="{{ url_for('search') }}">Search flask_notes.txt</a>&nbsp;&nbsp; |&nbsp;&nbsp;
+       <a class="note" href="{{ url_for('append_notes') }}">append_notes flask_notes.txt</a>
+       </div>
+   <h2>Image Cropping</h2>
+ 
+<p> {{ CMD }} </p><br />
+<video width="640" height="auto" controls>
+
+    <source src="{{ url_for('static', filename='videos/Final2.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

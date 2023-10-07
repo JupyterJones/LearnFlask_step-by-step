@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Crop Images</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/body.css') }}">
+   
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+           <a class="note" href="{{ url_for('mpegit') }}">FFMPEG It</a>&nbsp;&nbsp; |&nbsp;&nbsp;
+           <a class="note" href="{{ url_for('command') }}">Command</a>&nbsp;&nbsp; |&nbsp;&nbsp;
+           <a class="note" href="{{ url_for('index') }}">HOME (index.html)</a>
+   <h2>Image Cropping</h2>
+
+<p>{{ CMD }} </p>
+
+    <h2>Cropped Image Preview</h2>
+    <video width="640" height="auto" controls>
+        <source src="{{ video }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
