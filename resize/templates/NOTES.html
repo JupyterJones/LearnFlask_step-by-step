@@ -1,0 +1,81 @@
+NOTES.html
+# -----index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Resizer</title>
+</head>
+<body>
+
+    <h1>Image Resizer</h1>
+    <form action="/resize_image" method="POST">
+        <label for="desired_width">Desired Width:</label>
+        <input type="text" name="desired_width" id="desired_width">
+        <br>
+        <label for="desired_height">Desired Height:</label>
+        <input type="text" name="desired_height" id="desired_height">
+        <br>
+        <input type="submit" value="Resize Image">
+    </form>
+    {% if image %}
+        <img src="{{ image }}" alt="Resized Image">
+    {% endif %}
+</body>
+</html>
+-------------------------------
+
+
+# Import necessary libraries
+from flask import Flask, render_template, request, send_file
+from PIL import Image
+import os
+
+# Create a Flask app
+app = Flask(__name__)
+
+# Define a route for the index page
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+# Define a route for image resizing
+@app.route('/resize_image', methods=['POST'])
+def resize_image():
+    try:
+        # Access the uploaded image
+        uploaded_image = request.files['image']
+        
+        # Check if no file is selected
+        if uploaded_image.filename == '':
+            return "No file selected. Please choose an image."
+        
+        # Open the image using Pillow
+        image = Image.open(uploaded_image)
+        
+        # Get the desired width and height from the form submission
+        desired_width = int(request.form['desired_width'])
+        desired_height = int(request.form['desired_height'])
+        
+        # Resize the image to the desired dimensions
+        resized_image = image.resize((desired_width, desired_height))
+        
+        # Define the path to save the resized image
+        save_path = 'static/images/resized/resized_image.jpg'
+        
+        # Save the resized image
+        resized_image.save(save_path)
+        
+        # Return the resized image as a response
+        return send_file(save_path, mimetype='image/jpeg')
+    except Exception as e:
+        # Log any errors
+        app.logger.error(str(e))
+        return "An error occurred while resizing the image."
+
+if __name__ == '__main__':
+    # Ensure the directory for saving resized images exists
+    os.makedirs('static/images/resized', exist_ok=True)
+    
+    # Run the Flask app
+    app.run(debug=True, port=5300)
+-------------------------------

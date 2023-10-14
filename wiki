@@ -1,0 +1,51 @@
+from flask import Flask, render_template, request, redirect, url_for, jsonify, send_from_directory
+import wikipediaapi
+import os
+from icecream import ic
+
+app = Flask(__name__)
+
+def create_html_filename(query):
+    # Remove any special characters and spaces from the query
+    clean_query = "".join(c if c.isalnum() else "_" for c in query)
+    return f"static/html/{clean_query}_results.html"
+
+@app.route('/', methods=['GET', 'POST'])
+def search_wikipedia():
+    if request.method == 'POST':
+        search_query = request.form['search_query']
+
+        # Create a Wikipedia API object
+        wiki_wiki = wikipediaapi.Wikipedia(
+        language='en',
+        extract_format=wikipediaapi.ExtractFormat.WIKI,
+        user_agent='WikkiSearch/1.0 (jahral#yahoo.com)'
+        )
+        
+
+        # Perform a search
+        page = wiki_wiki.page(search_query)
+        if page.exists():
+           ic(page.text)
+           # Save the results to an HTML file with the same filename as the search topic
+           filename = create_html_filename(search_query)
+           print("FILENAME:", filename)  # Print the filename here
+           save_results_to_html(page, filename)
+           save_name = filename.split('/')[2]
+           print("SAVE NAME:", save_name)
+        return redirect(url_for('show_results', filename=filename))
+    return render_template('search.html')
+
+def save_results_to_html(page, filename):
+    with open(filename, 'w') as html_file:
+        html_file.write(f"<h1>{page.title}</h1>\n")
+        html_file.write(f"<p>{page.summary}</p>\n")
+        html_file.write(f"<p>{page.text}</p>\n")
+
+@app.route('/show_results/<filename>', methods=['GET'])
+def show_results(filename):
+    # Use send_from_directory to serve the static HTML file
+    return send_from_directory('static/html', filename)
+
+if __name__ == '__main__':
+    app.run(debug=True, port=5000)

@@ -1,0 +1,37 @@
+from flask import Flask, render_template, request, redirect, url_for, jsonify, send_from_directory
+import wikipediaapi
+import os
+from icecream import ic
+
+app = Flask(__name__)
+
+def create_html_filename(query):
+    clean_query = "".join(c if c.isalnum() else "_" for c in query)
+    return f"static/html/{clean_query}_results.html"
+
+@app.route('/', methods=['GET', 'POST'])
+def search_wikipedia():
+    if request.method == 'POST':
+        search_query = request.form['search_query']
+
+        # Create a Wikipedia API object with a custom User-Agent
+        wiki_wiki = wikipediaapi.Wikipedia(
+            language='en',
+            extract_format=wikipediaapi.ExtractFormat.WIKI,
+            user_agent='WikkiSearch/1.0 (jahral@yahoo.com)'
+        )
+
+        # Perform a search
+        page = wiki_wiki.page(search_query)
+
+        if page.exists():
+            # Render the template with search results
+            return render_template('search_results.html', 
+                                   title=page.title, 
+                                   summary=page.summary, 
+                                   text=page.text)
+
+    return render_template('search.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)

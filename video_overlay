@@ -1,0 +1,112 @@
+import os
+from flask import Flask, render_template, request, redirect, url_for
+from moviepy.editor import VideoFileClip, CompositeVideoClip, ImageClip
+import logging
+from werkzeug.utils import secure_filename
+from icecream import ic
+
+app = Flask(__name__)
+
+log_filename = 'app.log'
+log_format = '%(asctime)s [%(levelname)s] - %(filename)s:%(lineno)d - %(message)s'
+logging.basicConfig(filename=log_filename, level=logging.ERROR, format=log_format)
+
+UPLOAD_FOLDER = 'static/videos/uploaded/'
+ALLOWED_EXTENSIONS = {'mp4', 'avi', 'mkv'}
+
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+from moviepy.editor import VideoFileClip, ImageClip, clips_array
+
+def overlay_images_on_video(input_video, image_files, output_video):
+    clips = []
+    video_clip = VideoFileClip(input_video)
+    video_duration = video_clip.duration
+    image_height = video_clip.h // 2  # Half the height of the video
+
+    # Calculate the duration for each image (1 second apart)
+    num_images = len(image_files)
+    image_duration = video_duration / num_images
+    cnt=0
+    for i, image_file in enumerate(image_files):
+        cnt=cnt+0
+        image_clip = ImageClip(image_file, duration=image_duration)
+        image_clip = image_clip.resize(height=image_height)
+
+        # Calculate the start time for each image
+        start_time = i * image_duration
+
+        # Apply crossfade-in and crossfade-out effects
+        fade_in_duration = 1.5
+        fade_out_duration = 1.5
+        image_clip = image_clip.crossfadein(fade_in_duration).crossfadeout(fade_out_duration)
+        # Set the position of the image (100 pixels down and 100 pixels across)
+        image_clip = image_clip.set_position((250-cnt, 375-cnt))
+        # Set the image clip's start time
+        clips.append(image_clip.set_start(start_time))
+
+    # Create a composite video with the background video and overlay clips
+    final_clip = CompositeVideoClip([video_clip] + clips)
+
+    final_clip = final_clip.set_duration(video_duration).set_audio(video_clip.audio)  # Preserve the audio
+
+    final_clip.write_videofile(output_video, codec='libx264', fps=24)
+
+
+
+
+@app.route('/overlay_index', methods=['POST', 'GET'])
+def overlay_index():
+    return render_template('overlay_index.html')
+
+@app.route('/overlay_video', methods=['POST', 'GET'])
+def overlay_video():
+    if request.method == 'POST':
+        try:
+            uploaded_video = request.files['video']
+            selected_images = request.files.getlist('images')
+            logging.info(f"Number of selected images: {len(selected_images)}")
+
+            if 'video' not in request.files:
+                return "No video file uploaded. Please choose a video."
+
+            if not allowed_file(uploaded_video.filename):
+                return "Invalid video format. Please choose a supported video format."
+
+            if not selected_images:
+                return "No images selected."
+
+            video_filename = secure_filename(uploaded_video.filename)
+            video_path = os.path.join(UPLOAD_FOLDER, video_filename)
+            uploaded_video.save(video_path)
+
+            image_paths = []
+            for image in selected_images:
+                image_filename = secure_filename(image.filename)
+                image_path = os.path.join(UPLOAD_FOLDER, image_filename)
+                image.save(image_path)
+                image_paths.append(image_path)
+                logging.info(f"Image Path: {image_path}")
+
+            output_video = 'static/videos/output.mp4'
+            ic(image_paths)
+            ic(video_path)
+            ic(output_video)
+            overlay_images_on_video(video_path, image_paths, output_video)
+            return redirect(url_for('show_result', video_path=output_video))
+        except Exception as e:
+            ic(e)
+            return "An error occurred."
+
+    return render_template('overlay_video.html')
+
+
+@app.route('/show_result', methods=['GET'])
+def show_result():
+    video_path = request.args.get('video_path')
+    return render_template('result.html', video_path=video_path)
+
+if __name__ == '__main__':
+    os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+    app.run(debug=True, host='0.0.0.0', port=5500)

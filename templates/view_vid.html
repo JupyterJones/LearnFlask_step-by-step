@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View and Trim Video</title>
+</head>
+<body>
+    <h1>View and Trim Video</h1>
+
+    <h2>Upload Video</h2>
+    <form action="/view_and_trim" method="POST" enctype="multipart/form-data">
+        <input type="file" name="video" accept="video/*" required>
+        <input type="submit" value="Upload Video">
+    </form>
+
+    {% if video_path %}
+        <h2>Video Player</h2>
+        <video width="512" height="auto" controls>
+            <source src="{{ video_path }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h2>Trim Video</h2>
+        <form action="/trim_video" method="POST">
+            <label for="start_time">Start Time (-ss):</label>
+            <input type="text" name="start_time" required>
+            <br><br>
+            <label for="duration">Duration (-t):</label>
+            <input type="text" name="duration" required>
+            <br><br>
+            <input type="hidden" name="video_path" value="{{ video_path }}">
+            <input type="submit" value="Trim Video">
+        </form>
+    {% endif %}
+</body>
+</html>
+

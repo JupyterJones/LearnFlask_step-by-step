@@ -1,0 +1,22 @@
+<!-- templates/overlay_video.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Overlay Video with Images</title>
+</head>
+<body>
+    <h1>Overlay Video with Images</h1>
+
+    <form action="/overlay_video" method="POST" enctype="multipart/form-data">
+        <label for="video">Upload Video:</label>
+        <input type="file" name="video" accept="video/*" required>
+        <br><br>
+        <label for="images">Select Images:</label>
+        <input type="file" name="images" accept="image/*" multiple required>
+        <br><br>
+        <input type="submit" value="Overlay Video">
+    </form>
+    
+</body>
+</html>
+

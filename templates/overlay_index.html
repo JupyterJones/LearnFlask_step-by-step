@@ -1,0 +1,24 @@
+<!--- templates/index.html-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <a href="{{ url_for('video_overlay.overlay_video') }}">Overlay Video</a>
+        <form action="/overlay_video" method="POST" enctype="multipart/form-data">
+            <label for="video">Upload Video:</label>
+            <input type="file" name="video" accept="video/*" required>
+            <br><br>
+            <label for="images">Select Images:</label>
+            <input type="file" name="images" accept="image/*" multiple required>
+            <br><br>
+            <input type="submit" value="Overlay Video">
+        </form>
+    </body>
+</html>

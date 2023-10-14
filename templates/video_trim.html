@@ -1,0 +1,30 @@
+<!-----Video_trim.html-------->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Trim</title>
+</head>
+<body>
+    <h1>Trim Video</h1>
+    <form action="/trim_video" method="POST">
+        <label for="start_time">Start Time (-ss):</label>
+        <input type="text" name="start_time" required>
+        <br><br>
+        <label for="duration">Duration (-t):</label>
+        <input type="text" name="duration" required>
+        <br><br>
+        <input type="file" name="video" accept="video/*" required>
+        <br><br>
+        <input type="submit" value="Trim Video">
+    </form>
+
+    {% if video_path %}
+        <h2>Trimmed Video:</h2>
+        <video controls>
+            <source src="{{ video_path }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    {% endif %}
+</body>
+</html>
+

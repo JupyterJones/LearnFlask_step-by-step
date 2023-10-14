@@ -1,0 +1,29 @@
+# -----resize/resize_index.html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Resizer</title>
+</head>
+<body>
+    <h1>Image Resizer</h1>
+
+
+
+    <a href="{{ url_for('resize.resize_image') }}">Resize Image</a>
+    <br>
+        <form action="{{ url_for('resize.resize_image') }}" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required><br><br>
+
+            <label for="desired_width">Desired Width:</label>
+            <input type="number" name="desired_width" id="desired_width">
+            <br>
+            <label for="desired_height">Desired Height:</label>
+            <input type="number" name="desired_height" id="desired_height">
+            <br>
+            <input type="submit" value="Resize Image">
+    </form>
+    {% if image %}
+        <img src="{{ image }}" alt="Resized Image">
+    {% endif %}
+</body>
+</html>

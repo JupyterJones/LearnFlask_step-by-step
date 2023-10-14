@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Crop Images</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/body.css') }}">
-    
-</head>
-<body>
-    <div class="wrapper">
-        <div class="header">
-           <a class="note" href="{{ url_for('command') }}">Command</a>&nbsp;&nbsp; |&nbsp;&nbsp;
-           <a class="note" href="{{ url_for('mpegit') }}">Mpegit</a>&nbsp;&nbsp; |&nbsp;&nbsp;
-           <a class="note" href="{{ url_for('search') }}">Search flask_notes.txt</a>&nbsp;&nbsp; |&nbsp;&nbsp;
-       <a class="note" href="{{ url_for('append_notes') }}">append_notes flask_notes.txt</a>
-       </div>
-   <h2>Image Cropping</h2>
- 
-<p> {{ CMD }} </p><br />
-<video width="640" height="auto" controls>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/body.css') }}"
+    />
+  </head>
 
-    <source src="{{ url_for('static', filename='videos/Final2.mp4') }}" type="video/mp4">
+  <body>
+    <div class="wrapper"> 
+               <div class="header note">Learn Flask step by step: Step_Four</div>
+      <div class="columns">
+
+        <br />
+        <div class="column left">
+          <a class="note" href="{{ url_for('resize.resize_index') }}">Resize</a
+          ><br />
+          <a class="note" href="{{ url_for('command') }}">Command</a><br />
+          <a class="note" href="{{ url_for('commando') }}">Commando</a><br />
+          <a class="note" href="{{ url_for('mpegit') }}">Mpegit</a><br />
+          <a class="note" href="{{ url_for('fade.fade_index') }}">Fade</a><br />
+          <a class="note" href="{{ url_for('video_overlay.overlay_index') }}">Overlay A Video w/Images</a><br />
+          <a class="note" href="{{ url_for('search') }}"
+            >Search flask_notes.txt</a
+          ><br />
+          <a class="note" href="{{ url_for('append_notes') }}"
+            >append_notes flask_notes.txt</a
+          >
+        </div>
+        <div class="column right">
+          <h2>Random Video From static/assets/</h2>
+
+          <p>{{ CMD }}</p>
+          <br />
+          <video width="512" height="auto" controls>
+            <source src="{{ url_for('static', filename=filename) }}" type="video/mp4">
+
             Your browser does not support the video tag.
         </video>
-            </div>
+        
+        
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

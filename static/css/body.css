@@ -29,8 +29,16 @@ body {
             width: 100%;
             padding: 10px;
             text-align: center;
+            font-size: 26px;
+            color: red;
         }
-
+        .wrapper.header {
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            font-size: 26px;
+            color: red;
+        }
         .columns {
             display: flex;
             width: 98%;

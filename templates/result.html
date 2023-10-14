@@ -1,0 +1,23 @@
+<!-- templates/result.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Overlay Video Result</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/body.css') }}"
+    />
+  </head>
+
+<body>
+    <h1>Overlay Video Result</h1>
+
+    <h2>Resulting Video:</h2>
+    <a class="note" href="{{ url_for('index') }}">Home</a><br />
+    <video width="400" height="auto" controls>
+        <source src="{{ video_path }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
+

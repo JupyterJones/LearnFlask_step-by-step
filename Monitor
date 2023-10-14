@@ -1,0 +1,31 @@
+#!/home/jack/miniconda3/envs/cloned_base/bin/python
+import os
+from subprocess import Popen
+
+from watchdog.events import FileSystemEventHandler
+from watchdog.observers import Observer
+
+class RestartHandler(FileSystemEventHandler):
+    def on_modified(self, event):
+        print("Code changes detected. Restarting Flask server...")
+        if 'server' in locals():
+            server.terminate()
+        start_server()
+
+def start_server():
+    global server
+    server = Popen(['python', 'step_five'])
+
+if __name__ == '__main__':
+    print("Starting Python Flask Server with Auto-Restart")
+    start_server()
+    event_handler = RestartHandler()
+    observer = Observer()
+    observer.schedule(event_handler, path='.', recursive=True)
+    observer.start()
+    try:
+        while True:
+            observer.join()
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()

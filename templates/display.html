@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MP4 Files</title>
+</head>
+<body>
+    <h1>List of MP4 Files:</h1>
+    <a href="{{ url_for('index') }}">Home (index)<br />
+    <ul>
+        {% for mp4_file in mp4_files %}
+            <li><a href="{{ url_for('static', filename='final_videos/' + mp4_file) }}" target="_blank">{{ mp4_file }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
