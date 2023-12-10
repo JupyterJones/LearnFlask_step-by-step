@@ -31,7 +31,7 @@ def overlay_images_on_video(input_video, image_files, output_video):
     image_duration = video_duration / num_images
     cnt=0
     for i, image_file in enumerate(image_files):
-        cnt=cnt+0
+        cnt=cnt+5
         image_clip = ImageClip(image_file, duration=image_duration)
         image_clip = image_clip.resize(height=image_height)
 
@@ -53,6 +53,8 @@ def overlay_images_on_video(input_video, image_files, output_video):
     final_clip = final_clip.set_duration(video_duration).set_audio(video_clip.audio)  # Preserve the audio
 
     final_clip.write_videofile(output_video, codec='libx264', fps=24)
+    filename=datetime.datetime.now().strftime("%Y%m%d-%H%M%S")+".mp4"
+    shutil.copy(output_video, 'static/videos/filename')
 
 
 

@@ -71,6 +71,14 @@ app.register_blueprint(fade_bp)
 @app.route('/favicons.ico')
 def favicons():
     return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
+@app.route('/create_with_sound')
+def create_with_sound():
+    command = 'ffmpeg -i static/create_with_sound/untitled.mp4 -i static/create_with_sound/create_with_sound.png -i static/create_with_sound/Music.mp3 -filter_complex "[0:v]scale=-1:768,scroll=horizontal=0.0004,scroll=vertical=0.0006,crop=512:768:0:0,format=yuv420p[video];[1:v]scale=512:768[border];[video][border]overlay=0:0[with_border];[with_border][2:a]afade=t=in:st=0:d=0.5,afade=t=out:st=3.5:d=0.5[audio]" -map "[audio]" -pix_fmt yuv420p -movflags +faststart -y static/create_with_sound/create_with_sound.mp4'
+
+    subprocess.run(command, shell=True)
+    video = 'static/create_with_sound/create_with_sound.mp4'
+    shutil.copy(video, 'static/createwith_sound/'+datetime.datetime.now().strftime("%Y%m%d-%H%M%S")+'.mp4')
+    return render_template('create_with_sound.html', video=video)
 
 
 @app.route('/favicon.ico')

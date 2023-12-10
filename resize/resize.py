@@ -74,6 +74,4 @@ def resize_image():
         return render_template('resize_image.html', image=url_for('static', filename='images/resized/' + filename))
     
     except Exception as e:
-        # Log any errors
-        logger.error("An error occurred while resizing the image: {0}".format(e))
-        return "An error occurred while resizing the image."
+        return render_template('resize_image.html', image=url_for('static', filename='images/resized/' + filename))

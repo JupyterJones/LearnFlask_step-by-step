@@ -1,0 +1,1099 @@
+2023-10-15 04:18:21,015 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-10-15 04:18:21,015 [INFO] - [33mPress CTRL+C to quit[0m
+2023-10-15 04:18:21,024 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 04:18:22,672 [WARNING] -  * Debugger is active!
+2023-10-15 04:18:22,672 [INFO] -  * Debugger PIN: 110-743-374
+2023-10-15 08:11:05,842 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:11:05] "GET / HTTP/1.1" 200 -
+2023-10-15 08:11:05,984 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:11:05] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-10-15 08:11:06,060 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:11:06] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-10-15 08:11:07,387 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:11:07] "[35m[1mGET /static/assets/44e20d8f-72cd-4c07-a1ec-c4870b1438f0.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:11:07,483 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:11:07] "[35m[1mGET /static/assets/44e20d8f-72cd-4c07-a1ec-c4870b1438f0.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:11:07,514 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 08:11:07,552 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:11:07] "[35m[1mGET /static/assets/44e20d8f-72cd-4c07-a1ec-c4870b1438f0.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:11:07,566 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:11:07] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 08:12:49,997 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:12:49] "GET /fade_index HTTP/1.1" 200 -
+2023-10-15 08:12:50,317 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:12:50] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 08:12:50,345 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:12:50] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:12:50,348 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:12:50] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:12:50,455 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:12:50] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 08:12:50,458 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:12:50] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:12:50,461 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:12:50] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:12:50,594 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:12:50] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:12:50,597 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:12:50] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:14:16,446 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:14:16] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-15 08:14:16,459 [DEBUG] - WE MADE IT HERE !
+2023-10-15 08:14:16,573 [DEBUG] - [640, 800]
+2023-10-15 08:16:09,935 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:09] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-15 08:16:10,162 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:10] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 08:16:10,206 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:10] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:16:10,305 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:10] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 08:16:10,348 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 08:16:10,351 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:10] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 08:16:17,414 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:17] "GET /fade_index HTTP/1.1" 200 -
+2023-10-15 08:16:17,608 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:17] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 08:16:17,710 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:17] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 08:16:32,392 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:32] "[35m[1mPOST /generate_video HTTP/1.1[0m" 500 -
+2023-10-15 08:16:32,519 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:32] "GET /generate_video?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-10-15 08:16:32,521 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:32] "GET /generate_video?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-10-15 08:16:32,585 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:32] "GET /generate_video?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-10-15 08:16:32,590 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:16:32] "GET /generate_video?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-10-15 08:17:36,342 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:17:36] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-15 08:17:36,366 [DEBUG] - WE MADE IT HERE !
+2023-10-15 08:17:36,506 [DEBUG] - [512, 512]
+2023-10-15 08:18:32,488 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:18:32] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-15 08:18:32,692 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:18:32] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 08:18:32,880 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:18:32] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 08:18:36,949 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:18:36] "GET /fade_index HTTP/1.1" 200 -
+2023-10-15 08:18:37,143 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:18:37] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 08:18:37,327 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:18:37] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 08:19:03,170 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:03] "[35m[1mPOST /generate_video HTTP/1.1[0m" 500 -
+2023-10-15 08:19:03,304 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:03] "[36mGET /generate_video?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-15 08:19:03,319 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:03] "[36mGET /generate_video?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-15 08:19:03,375 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:03] "[36mGET /generate_video?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-15 08:19:33,372 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:33] "GET / HTTP/1.1" 200 -
+2023-10-15 08:19:33,604 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:33] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 08:19:33,623 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:33] "[35m[1mGET /static/assets/85533409-faba-4b14-860c-9deda92f0a90.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:19:33,697 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:33] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 08:19:33,769 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:33] "[35m[1mGET /static/assets/85533409-faba-4b14-860c-9deda92f0a90.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:19:33,868 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:33] "[35m[1mGET /static/assets/85533409-faba-4b14-860c-9deda92f0a90.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 08:19:41,756 [INFO] - 192.168.0.107 - - [15/Oct/2023 08:19:41] "GET /overlay_index HTTP/1.1" 200 -
+2023-10-15 09:54:17,397 [INFO] - 192.168.0.107 - - [15/Oct/2023 09:54:17] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-10-15 09:54:17,448 [INFO] - 192.168.0.107 - - [15/Oct/2023 09:54:17] "GET /show_result?video_path=static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 09:54:18,219 [INFO] - 192.168.0.107 - - [15/Oct/2023 09:54:18] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 09:54:18,232 [INFO] - 192.168.0.107 - - [15/Oct/2023 09:54:18] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 09:54:18,322 [INFO] - 192.168.0.107 - - [15/Oct/2023 09:54:18] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 09:54:18,489 [INFO] - 192.168.0.107 - - [15/Oct/2023 09:54:18] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 09:54:20,602 [INFO] - 192.168.0.107 - - [15/Oct/2023 09:54:20] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 10:20:23,695 [INFO] - 192.168.0.107 - - [15/Oct/2023 10:20:23] "GET / HTTP/1.1" 200 -
+2023-10-15 10:20:23,929 [INFO] - 192.168.0.107 - - [15/Oct/2023 10:20:23] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 10:20:23,999 [INFO] - 192.168.0.107 - - [15/Oct/2023 10:20:23] "[35m[1mGET /static/assets/e04b6211-7ea1-41c9-a3d8-cabc52a42320.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 10:20:24,046 [INFO] - 192.168.0.107 - - [15/Oct/2023 10:20:24] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 10:20:24,188 [INFO] - 192.168.0.107 - - [15/Oct/2023 10:20:24] "[35m[1mGET /static/assets/e04b6211-7ea1-41c9-a3d8-cabc52a42320.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 10:20:24,308 [INFO] - 192.168.0.107 - - [15/Oct/2023 10:20:24] "[35m[1mGET /static/assets/e04b6211-7ea1-41c9-a3d8-cabc52a42320.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 10:20:28,605 [INFO] - 192.168.0.107 - - [15/Oct/2023 10:20:28] "GET /overlay_index HTTP/1.1" 200 -
+2023-10-15 13:58:47,091 [INFO] - 192.168.0.107 - - [15/Oct/2023 13:58:47] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-10-15 13:58:47,163 [INFO] - 192.168.0.107 - - [15/Oct/2023 13:58:47] "GET /show_result?video_path=static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 13:58:47,288 [INFO] - 192.168.0.107 - - [15/Oct/2023 13:58:47] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-10-15 13:58:47,380 [INFO] - 192.168.0.107 - - [15/Oct/2023 13:58:47] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 13:58:47,539 [INFO] - 192.168.0.107 - - [15/Oct/2023 13:58:47] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 13:58:47,647 [INFO] - 192.168.0.107 - - [15/Oct/2023 13:58:47] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 13:58:47,955 [INFO] - 192.168.0.107 - - [15/Oct/2023 13:58:47] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:29:19,752 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-10-15 17:29:19,753 [INFO] - [33mPress CTRL+C to quit[0m
+2023-10-15 17:29:19,763 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 17:29:21,312 [WARNING] -  * Debugger is active!
+2023-10-15 17:29:21,312 [INFO] -  * Debugger PIN: 119-023-636
+2023-10-15 17:29:49,833 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:29:49] "GET / HTTP/1.1" 200 -
+2023-10-15 17:29:49,947 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:29:49] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-10-15 17:29:49,957 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:29:49] "[35m[1mGET /static/assets/Water-blinking.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:29:49,983 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:29:49] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-10-15 17:29:50,124 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 17:29:50,222 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:29:50] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 17:29:50,345 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:29:50] "[35m[1mGET /static/assets/Water-blinking.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:29:50,347 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:29:50] "[35m[1mGET /static/assets/Water-blinking.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:30:10,409 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:30:10] "GET /overlay_index HTTP/1.1" 200 -
+2023-10-15 17:34:13,803 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:34:13] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-10-15 17:34:13,937 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:34:13] "GET /show_result?video_path=static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 17:34:13,969 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:34:13] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 17:34:13,979 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:34:13] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:34:14,006 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:34:14] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 17:34:14,009 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:34:14] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:34:19,069 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:34:19] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:34:19,092 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:34:19] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:34:19,180 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:34:19] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:35:43,316 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:43] "GET /show_result?video_path=static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 17:35:43,336 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:43] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 17:35:43,363 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:43] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:35:43,377 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:43] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:35:43,403 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:43] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 17:35:43,415 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:43] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:35:48,523 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:48] "GET / HTTP/1.1" 200 -
+2023-10-15 17:35:49,348 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:49] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:35:49,357 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:49] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:35:49,414 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:49] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 17:35:50,712 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:35:50] "[35m[1mGET /static/assets/4a139f73-3bf1-4a88-819b-6184c6635670_zoomed.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:36:16,705 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:36:16] "[35m[1mGET /static/assets/4a139f73-3bf1-4a88-819b-6184c6635670_zoomed.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:36:18,370 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:36:18] "[35m[1mGET /static/assets/4a139f73-3bf1-4a88-819b-6184c6635670_zoomed.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:36:18,385 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:36:18] "[35m[1mGET /static/assets/4a139f73-3bf1-4a88-819b-6184c6635670_zoomed.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 17:36:21,323 [INFO] - 127.0.0.1 - - [15/Oct/2023 17:36:21] "[35m[1mGET /static/assets/4a139f73-3bf1-4a88-819b-6184c6635670_zoomed.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:04:07,923 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-10-15 18:04:07,923 [INFO] - [33mPress CTRL+C to quit[0m
+2023-10-15 18:04:07,927 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 18:04:09,400 [WARNING] -  * Debugger is active!
+2023-10-15 18:04:09,400 [INFO] -  * Debugger PIN: 549-144-416
+2023-10-15 18:08:30,725 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:08:30] "GET / HTTP/1.1" 200 -
+2023-10-15 18:08:30,791 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:08:30] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-10-15 18:08:30,853 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:08:30] "[35m[1mGET /static/assets/0c15c7bc-4014-4015-b189-ff404d9b7671.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:08:30,908 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:08:30] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-10-15 18:08:30,921 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:08:30] "[35m[1mGET /static/assets/0c15c7bc-4014-4015-b189-ff404d9b7671.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:08:31,019 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 18:08:31,084 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:08:31] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 18:08:43,223 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:08:43] "GET /resize/ HTTP/1.1" 200 -
+2023-10-15 18:09:27,091 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:09:27,098 [ERROR] - An error occurred while resizing the image: Could not build url for endpoint 'resize.index'. Did you mean 'resize.resize_index' instead?
+2023-10-15 18:09:27,099 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:09:27] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:11:07,797 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:11:07] "GET /resize/ HTTP/1.1" 200 -
+2023-10-15 18:11:13,302 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:11:13] "[31m[1mGET /resize/resize_image HTTP/1.1[0m" 405 -
+2023-10-15 18:11:33,798 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:11:33,800 [ERROR] - An error occurred while resizing the image: Could not build url for endpoint 'resize.index'. Did you mean 'resize.resize_index' instead?
+2023-10-15 18:11:33,803 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:11:33] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:17:22,585 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:17:22,587 [ERROR] - An error occurred while resizing the image: Could not build url for endpoint 'resize.index'. Did you mean 'resize.resize_index' instead?
+2023-10-15 18:17:22,598 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:17:22] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:17:49,079 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:17:49] "GET /resize/ HTTP/1.1" 200 -
+2023-10-15 18:17:49,110 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 18:17:49,111 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:17:49] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 18:18:54,493 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-10-15 18:18:54,494 [INFO] - [33mPress CTRL+C to quit[0m
+2023-10-15 18:18:54,499 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 18:18:55,954 [WARNING] -  * Debugger is active!
+2023-10-15 18:18:55,955 [INFO] -  * Debugger PIN: 649-356-441
+2023-10-15 18:19:05,326 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:19:05] "GET /resize/ HTTP/1.1" 200 -
+2023-10-15 18:19:05,353 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 18:19:05,412 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:19:05] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 18:19:07,627 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:19:07] "GET /resize/ HTTP/1.1" 200 -
+2023-10-15 18:19:07,657 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 18:19:07,658 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:19:07] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 18:19:25,346 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:19:25,351 [ERROR] - An error occurred while resizing the image: Could not build url for endpoint 'resize.index'. Did you mean 'resize.resize_index' instead?
+2023-10-15 18:19:25,352 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:19:25] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:20:18,928 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:20:18,930 [ERROR] - An error occurred while resizing the image: Could not build url for endpoint 'resize.index'. Did you mean 'resize.resize_index' instead?
+2023-10-15 18:20:18,931 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:20:18] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:23:39,703 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:23:39,710 [ERROR] - An error occurred while resizing the image: Could not build url for endpoint 'resize.index'. Did you mean 'resize.resize_index' instead?
+2023-10-15 18:23:39,712 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:23:39] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:23:44,535 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:23:44,538 [ERROR] - An error occurred while resizing the image: Could not build url for endpoint 'resize.index'. Did you mean 'resize.resize_index' instead?
+2023-10-15 18:23:44,540 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:23:44] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:23:44,589 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 18:23:44,590 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:23:44] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 18:23:57,644 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-10-15 18:23:57,644 [INFO] - [33mPress CTRL+C to quit[0m
+2023-10-15 18:23:57,648 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 18:23:59,093 [WARNING] -  * Debugger is active!
+2023-10-15 18:23:59,093 [INFO] -  * Debugger PIN: 200-719-304
+2023-10-15 18:24:03,956 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:24:03] "GET /resize/ HTTP/1.1" 200 -
+2023-10-15 18:24:03,986 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 18:24:04,051 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:24:04] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 18:24:17,127 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:24:17,132 [ERROR] - An error occurred while resizing the image: Could not build url for endpoint 'resize.index'. Did you mean 'resize.resize_index' instead?
+2023-10-15 18:24:17,133 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:24:17] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:25:15,291 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:25:15,292 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:25:15,296 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:25:16,511 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 18:25:18,115 [WARNING] -  * Debugger is active!
+2023-10-15 18:25:18,115 [INFO] -  * Debugger PIN: 448-168-028
+2023-10-15 18:26:37,654 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:26:37,656 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:26:37,658 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:26:38,489 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 18:26:39,987 [WARNING] -  * Debugger is active!
+2023-10-15 18:26:39,989 [INFO] -  * Debugger PIN: 572-266-738
+2023-10-15 18:27:08,448 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:27:08,451 [ERROR] - An error occurred while resizing the image: resize.resize_image.html
+2023-10-15 18:27:08,453 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:27:08] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:29:05,667 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:29:05,668 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:29:05,670 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:29:06,681 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 18:29:08,411 [WARNING] -  * Debugger is active!
+2023-10-15 18:29:08,415 [INFO] -  * Debugger PIN: 136-956-267
+2023-10-15 18:29:13,752 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:29:13,770 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:29:13] "[35m[1mPOST /resize/resize_image HTTP/1.1[0m" 500 -
+2023-10-15 18:29:13,806 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:29:13] "GET /resize/resize_image?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-10-15 18:29:13,814 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:29:13] "GET /resize/resize_image?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-10-15 18:29:13,839 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:29:13] "GET /resize/resize_image?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-10-15 18:29:13,899 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:29:13] "[36mGET /resize/resize_image?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-15 18:29:51,195 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:29:51,197 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:29:51,198 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/resize/resize.py', reloading
+2023-10-15 18:29:51,547 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 18:29:53,297 [WARNING] -  * Debugger is active!
+2023-10-15 18:29:53,298 [INFO] -  * Debugger PIN: 360-895-246
+2023-10-15 18:29:57,016 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:29:57,083 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:29:57] "[35m[1mPOST /resize/resize_image HTTP/1.1[0m" 500 -
+2023-10-15 18:29:57,124 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:29:57] "[36mGET /resize/resize_image?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-15 18:29:57,130 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:29:57] "[36mGET /resize/resize_image?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-15 18:29:57,149 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:29:57] "[36mGET /resize/resize_image?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-15 18:32:43,900 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:32:43,928 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:32:43] "[35m[1mPOST /resize/resize_image HTTP/1.1[0m" 500 -
+2023-10-15 18:32:43,969 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:32:43] "[36mGET /resize/resize_image?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-10-15 18:32:43,991 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:32:43] "[36mGET /resize/resize_image?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-10-15 18:32:44,005 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:32:44] "[36mGET /resize/resize_image?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-15 18:33:13,817 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:33:13,822 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:33:13] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:33:13,853 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:33:13] "GET /static/images/resized/20231015-183313_333X333.jpg HTTP/1.1" 200 -
+2023-10-15 18:33:17,410 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:33:17] "GET /resize/ HTTP/1.1" 200 -
+2023-10-15 18:33:34,032 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:33:34,033 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:33:34] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:33:34,065 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:33:34] "GET /static/images/resized/20231015-183334_444X444.jpg HTTP/1.1" 200 -
+2023-10-15 18:33:41,554 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:33:41] "GET /resize/ HTTP/1.1" 200 -
+2023-10-15 18:33:43,419 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:33:43] "[31m[1mGET /resize/resize_image HTTP/1.1[0m" 405 -
+2023-10-15 18:34:27,197 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:34:27] "[35m[1mGET /resize/ HTTP/1.1[0m" 500 -
+2023-10-15 18:34:27,229 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:34:27] "GET /resize/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-10-15 18:34:27,235 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:34:27] "GET /resize/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-10-15 18:34:27,269 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:34:27] "GET /resize/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-10-15 18:34:27,301 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:34:27] "[36mGET /resize/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-15 18:34:58,871 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:34:58] "GET /resize/ HTTP/1.1" 200 -
+2023-10-15 18:34:58,920 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 18:34:58,980 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:34:58] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 18:35:03,593 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:35:03] "[31m[1mGET /resize/resize_image HTTP/1.1[0m" 405 -
+2023-10-15 18:35:11,558 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:35:11] "[31m[1mGET /resize/resize_image HTTP/1.1[0m" 405 -
+2023-10-15 18:35:26,875 [INFO] - Save path: static/images/resized/resized_image.jpg
+2023-10-15 18:35:26,877 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:35:26] "POST /resize/resize_image HTTP/1.1" 200 -
+2023-10-15 18:35:26,903 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:35:26] "GET /static/images/resized/20231015-183526_555X555.jpg HTTP/1.1" 200 -
+2023-10-15 18:35:40,396 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:35:40] "GET / HTTP/1.1" 200 -
+2023-10-15 18:35:40,430 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:35:40] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 18:35:40,445 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:35:40] "[35m[1mGET /static/assets/20231015-082243.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:35:40,492 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:35:40] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 18:35:47,428 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:35:47] "GET /overlay_index HTTP/1.1" 200 -
+2023-10-15 18:36:34,345 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:36:34] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-10-15 18:36:34,352 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:36:34] "GET /show_result?video_path=static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 18:36:34,392 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:36:34] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 18:36:34,392 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:36:34] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:36:34,403 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:36:34] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 18:36:34,455 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:36:34] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:43:25,387 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:43:25] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-10-15 18:43:25,392 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:43:25] "GET /show_result?video_path=static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 18:43:25,415 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:43:25] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 18:43:25,428 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:43:25] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:43:25,434 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:43:25] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 18:43:25,440 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:43:25] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:43:25,464 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:43:25] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:44:24,943 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:44:24] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:52:56,678 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/video_overlay.py', reloading
+2023-10-15 18:52:56,679 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/video_overlay.py', reloading
+2023-10-15 18:52:56,681 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/video_overlay.py', reloading
+2023-10-15 18:52:57,619 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 18:52:59,398 [WARNING] -  * Debugger is active!
+2023-10-15 18:52:59,398 [INFO] -  * Debugger PIN: 311-985-618
+2023-10-15 18:53:05,467 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:53:05] "GET / HTTP/1.1" 200 -
+2023-10-15 18:53:05,511 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:53:05] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 18:53:05,515 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:53:05] "[35m[1mGET /static/assets/scrolloutput.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:53:05,522 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:53:05] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 18:53:08,867 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:53:08] "GET /overlay_index HTTP/1.1" 200 -
+2023-10-15 18:55:13,392 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:55:13] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-10-15 18:55:13,403 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:55:13] "GET /show_result?video_path=static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 18:55:13,426 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:55:13] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 18:55:13,446 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:55:13] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 18:55:13,447 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:55:13] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:55:13,480 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:55:13] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:56:25,675 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/video_overlay.py', reloading
+2023-10-15 18:56:25,676 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/video_overlay.py', reloading
+2023-10-15 18:56:25,678 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/video_overlay.py', reloading
+2023-10-15 18:56:26,674 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 18:56:28,690 [WARNING] -  * Debugger is active!
+2023-10-15 18:56:28,691 [INFO] -  * Debugger PIN: 455-817-762
+2023-10-15 18:57:17,585 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:57:17] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-10-15 18:57:17,594 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:57:17] "GET /show_result?video_path=static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 18:57:17,624 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:57:17] "GET /static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 18:57:17,624 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:57:17] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 18:57:17,629 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:57:17] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:57:17,650 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:57:17] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 18:57:17,656 [INFO] - 127.0.0.1 - - [15/Oct/2023 18:57:17] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 18:59:11,923 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/video_overlay.py', reloading
+2023-10-15 18:59:11,924 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/video_overlay.py', reloading
+2023-10-15 18:59:11,926 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/video_overlay.py', reloading
+2023-10-15 18:59:12,779 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-15 18:59:14,351 [WARNING] -  * Debugger is active!
+2023-10-15 18:59:14,351 [INFO] -  * Debugger PIN: 576-347-605
+2023-10-15 19:00:01,317 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:00:01] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-10-15 19:00:01,325 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:00:01] "GET /show_result?video_path=static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 19:00:01,347 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:00:01] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 19:00:01,351 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:00:01] "GET /static/videos/output.mp4 HTTP/1.1" 200 -
+2023-10-15 19:00:01,355 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:00:01] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 19:00:01,360 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:00:01] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:00:01,384 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:00:01] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:38:53,633 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:38:53] "GET / HTTP/1.1" 200 -
+2023-10-15 19:38:53,744 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:38:53] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 19:38:53,745 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:38:53] "[35m[1mGET /static/assets/This_Column.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:38:53,768 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:38:53] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-15 19:39:00,831 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:39:00] "GET /fade_index HTTP/1.1" 200 -
+2023-10-15 19:39:00,910 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:39:00] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:39:00,912 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:39:00] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:39:00,926 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:39:00] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 19:39:00,937 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:39:00] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:39:00,941 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:39:00] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:39:01,043 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:39:01] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:39:01,044 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:39:01] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:39:01,077 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:39:01] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:39:01,113 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:39:01] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:40:28,014 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:40:28] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-15 19:40:28,033 [DEBUG] - WE MADE IT HERE !
+2023-10-15 19:40:28,162 [DEBUG] - [512, 676]
+2023-10-15 19:42:15,452 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-15 19:42:15,504 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 19:42:15,511 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:15,518 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:15,545 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:15,567 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:15,598 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:15,654 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:15,660 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:15,711 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:15,714 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:15] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:31,629 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 19:42:31,730 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:31] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 19:42:31,801 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:31] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:48,334 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:48] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:42:59,245 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:59] "GET /fade_index HTTP/1.1" 200 -
+2023-10-15 19:42:59,306 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:59] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 19:42:59,327 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:42:59] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:44:14,075 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:44:14] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-15 19:44:14,089 [DEBUG] - WE MADE IT HERE !
+2023-10-15 19:44:14,334 [DEBUG] - [512, 676]
+2023-10-15 19:46:11,885 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:46:11] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-15 19:46:11,915 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:46:11] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 19:46:11,928 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:46:11] "GET /static/assets/final_output.mp4 HTTP/1.1" 200 -
+2023-10-15 19:46:11,935 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:46:11] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:46:11,952 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:46:11] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:46:11,955 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:46:11] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:46:11,974 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:46:11] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:46:12,068 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:46:12] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:46:12,078 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:46:12] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:46:12,087 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:46:12] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:15,375 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 19:48:15,378 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:15] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 19:48:15,487 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:15] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:37,195 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "GET /fade_index HTTP/1.1" 200 -
+2023-10-15 19:48:37,268 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 19:48:37,295 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:37,299 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:37,311 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:37,327 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:37,336 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:37,396 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:37,521 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:37,527 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:37,537 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:48:37,545 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:48:37] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:49:59,003 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:49:59] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-15 19:49:59,012 [DEBUG] - WE MADE IT HERE !
+2023-10-15 19:49:59,233 [DEBUG] - [512, 666]
+2023-10-15 19:52:03,917 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:03] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-15 19:52:03,973 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:03] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 19:52:03,974 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:03] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:04,011 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:04] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:04,020 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:04] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:04,038 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:04] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:04,057 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:04] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:04,064 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:04] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:04,125 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:04] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:04,236 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:04] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:04,272 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:04] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:08,381 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:08] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:08,399 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:08] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:52:08,484 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-15 19:52:08,486 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:52:08] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-15 19:55:30,623 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:30] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:55:30,628 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:30] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:55:30,638 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:30] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:55:30,639 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:30] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:55:30,660 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:30] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:55:30,678 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:30] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:55:30,714 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:30] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:55:30,834 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:30] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:55:30,851 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:30] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:55:47,072 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:47] "GET / HTTP/1.1" 200 -
+2023-10-15 19:55:47,107 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:47] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 19:55:47,110 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:47] "[35m[1mGET /static/assets/result_indian.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:55:47,145 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:55:47] "[35m[1mGET /static/assets/result_indian.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:58:10,999 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:58:10] "GET /mpegit HTTP/1.1" 200 -
+2023-10-15 19:58:11,052 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:58:11] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-15 19:58:11,078 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:58:11] "[35m[1mGET /static/videos/Final2.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:58:11,105 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:58:11] "[35m[1mGET /static/videos/Final2.mp4 HTTP/1.1[0m" 206 -
+2023-10-15 19:58:11,147 [INFO] - 127.0.0.1 - - [15/Oct/2023 19:58:11] "[35m[1mGET /static/videos/Final2.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 02:01:47,139 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-10-18 02:01:47,139 [INFO] - [33mPress CTRL+C to quit[0m
+2023-10-18 02:01:47,150 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-18 02:01:48,561 [WARNING] -  * Debugger is active!
+2023-10-18 02:01:48,561 [INFO] -  * Debugger PIN: 300-940-887
+2023-10-18 06:49:10,460 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:49:10] "GET / HTTP/1.1" 200 -
+2023-10-18 06:49:10,752 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:49:10] "GET / HTTP/1.1" 200 -
+2023-10-18 06:49:15,334 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:49:15] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-10-18 06:49:16,322 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:49:16] "[35m[1mGET /static/assets/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 06:49:16,994 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:49:16] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 06:49:19,936 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:49:19] "[35m[1mGET /static/assets/output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 06:50:05,185 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:50:05] "GET /fade_index HTTP/1.1" 200 -
+2023-10-18 06:50:05,421 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:50:05] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 06:50:05,630 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:50:05] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 06:50:05,630 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:50:05] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 06:50:05,721 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:50:05] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 06:50:06,390 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:50:06] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 06:50:06,448 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:50:06] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 06:50:06,801 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:50:06] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 06:50:06,820 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:50:06] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 06:50:38,483 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:50:38] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-18 06:50:38,512 [DEBUG] - WE MADE IT HERE !
+2023-10-18 06:50:38,760 [DEBUG] - [2016, 1152]
+2023-10-18 06:58:07,076 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:58:07] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-18 06:58:07,535 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:58:07] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 06:58:07,745 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:58:07] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 06:58:07,781 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:58:07] "[31m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 416 -
+2023-10-18 06:58:07,810 [INFO] - 192.168.0.107 - - [18/Oct/2023 06:58:07] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:47:56,987 [INFO] - 192.168.0.107 - - [18/Oct/2023 07:47:56] "GET /fade_index HTTP/1.1" 200 -
+2023-10-18 07:47:57,261 [INFO] - 192.168.0.107 - - [18/Oct/2023 07:47:57] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 07:47:57,290 [INFO] - 192.168.0.107 - - [18/Oct/2023 07:47:57] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:47:57,336 [INFO] - 192.168.0.107 - - [18/Oct/2023 07:47:57] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:47:57,369 [INFO] - 192.168.0.107 - - [18/Oct/2023 07:47:57] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 07:47:57,504 [INFO] - 192.168.0.107 - - [18/Oct/2023 07:47:57] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:47:57,506 [INFO] - 192.168.0.107 - - [18/Oct/2023 07:47:57] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:47:57,551 [INFO] - 192.168.0.107 - - [18/Oct/2023 07:47:57] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:47:57,617 [INFO] - 192.168.0.107 - - [18/Oct/2023 07:47:57] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:48:04,676 [INFO] - 192.168.0.107 - - [18/Oct/2023 07:48:04] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:51:54,301 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:51:54] "GET / HTTP/1.1" 200 -
+2023-10-18 07:51:54,664 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:51:54] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-10-18 07:51:54,692 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:51:54] "[35m[1mGET /static/assets/result_convert_mp3_wav.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:51:54,796 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:51:54] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-10-18 07:51:54,862 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:51:54] "[35m[1mGET /static/assets/result_convert_mp3_wav.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:51:55,022 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-18 07:51:55,050 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:51:55] "[35m[1mGET /static/assets/result_convert_mp3_wav.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:51:55,465 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:51:55] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-18 07:59:18,812 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:18] "GET /fade_index HTTP/1.1" 200 -
+2023-10-18 07:59:18,902 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:18] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 07:59:18,916 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:18] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:18,916 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:18] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:18,956 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:18] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 07:59:21,554 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:21] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:21,556 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:21] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:21,586 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:21] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:21,616 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:21] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:21,622 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:21] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:21,656 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:21] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:21,932 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:21] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:21,948 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:21] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:21,999 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:21] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:22,003 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:22] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 07:59:59,601 [INFO] - 127.0.0.1 - - [18/Oct/2023 07:59:59] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-18 07:59:59,607 [DEBUG] - WE MADE IT HERE !
+2023-10-18 07:59:59,722 [DEBUG] - [512, 384]
+2023-10-18 08:00:54,210 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:54] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-18 08:00:54,261 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:54] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 08:00:54,277 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:54] "GET /static/assets/final_output.mp4 HTTP/1.1" 200 -
+2023-10-18 08:00:54,284 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:54] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:00:54,289 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:54] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 08:00:54,772 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:54] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:00:54,783 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:54] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:00:54,791 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:54] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:00:54,822 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:54] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:00:55,035 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:55] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:00:55,249 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:55] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:00:55,290 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:55] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:00:55,293 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:55] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:00:55,450 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:00:55] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:58:56,802 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:58:56] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:58:56,836 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:58:56] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:35,676 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:35] "GET /fade_index HTTP/1.1" 200 -
+2023-10-18 08:59:35,844 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:35] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:35,852 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:35] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 08:59:35,855 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:35] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:35,936 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:35] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:35,938 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:35] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:35,948 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:35] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 08:59:35,979 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:35] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:36,089 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:36] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:36,092 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:36] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:36,121 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:36] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:36,155 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:36] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:36,166 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:36] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 08:59:36,177 [INFO] - 127.0.0.1 - - [18/Oct/2023 08:59:36] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 10:27:55,051 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:27:55] "GET /fade_index HTTP/1.1" 200 -
+2023-10-18 10:27:55,198 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:27:55] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 10:27:55,378 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:27:55] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 10:27:55,390 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:27:55] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 10:28:40,310 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:28:40] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-18 10:28:40,320 [DEBUG] - WE MADE IT HERE !
+2023-10-18 10:28:40,446 [DEBUG] - [512, 768]
+2023-10-18 10:30:11,811 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:30:11] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-18 10:30:12,009 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:30:12] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 10:30:12,213 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:30:12] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 10:30:12,227 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:30:12] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 10:30:12,233 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:30:12] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 10:30:12,629 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:30:12] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 10:30:12,632 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:30:12] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 10:30:12,686 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:30:12] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 10:30:12,821 [INFO] - 192.168.0.107 - - [18/Oct/2023 10:30:12] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 11:26:16,224 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:26:16] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 11:27:08,920 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:27:08] "GET /fade_index HTTP/1.1" 200 -
+2023-10-18 11:27:09,103 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:27:09] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 11:27:09,312 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:27:09] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 11:27:09,317 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:27:09] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 11:28:14,240 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:28:14] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-18 11:28:14,250 [DEBUG] - WE MADE IT HERE !
+2023-10-18 11:28:14,382 [DEBUG] - [512, 384]
+2023-10-18 11:28:58,324 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:28:58] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-18 11:28:58,546 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:28:58] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 11:28:58,768 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:28:58] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 11:28:58,778 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:28:58] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 11:28:58,793 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:28:58] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 11:28:59,435 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:28:59] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 11:28:59,439 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:28:59] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 11:28:59,549 [INFO] - 192.168.0.107 - - [18/Oct/2023 11:28:59] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 11:37:07,028 [INFO] - 127.0.0.1 - - [18/Oct/2023 11:37:07] "GET /static/assets/final_output.mp4 HTTP/1.1" 200 -
+2023-10-18 11:37:07,033 [INFO] - 127.0.0.1 - - [18/Oct/2023 11:37:07] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 11:37:14,228 [INFO] - 127.0.0.1 - - [18/Oct/2023 11:37:14] "GET /static/assets/framed_final_output.mp4 HTTP/1.1" 200 -
+2023-10-18 11:37:14,233 [INFO] - 127.0.0.1 - - [18/Oct/2023 11:37:14] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 13:55:16,157 [INFO] - 192.168.0.107 - - [18/Oct/2023 13:55:16] "GET /fade_index HTTP/1.1" 200 -
+2023-10-18 13:55:16,636 [INFO] - 192.168.0.107 - - [18/Oct/2023 13:55:16] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 13:55:16,883 [INFO] - 192.168.0.107 - - [18/Oct/2023 13:55:16] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 13:57:19,737 [INFO] - 192.168.0.107 - - [18/Oct/2023 13:57:19] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-18 13:57:19,757 [DEBUG] - WE MADE IT HERE !
+2023-10-18 13:57:19,917 [DEBUG] - [512, 768]
+2023-10-18 13:59:19,102 [INFO] - 192.168.0.107 - - [18/Oct/2023 13:59:19] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-18 13:59:19,336 [INFO] - 192.168.0.107 - - [18/Oct/2023 13:59:19] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 13:59:19,547 [INFO] - 192.168.0.107 - - [18/Oct/2023 13:59:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 13:59:19,573 [INFO] - 192.168.0.107 - - [18/Oct/2023 13:59:19] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 13:59:19,574 [INFO] - 192.168.0.107 - - [18/Oct/2023 13:59:19] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 14:34:09,040 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:34:09] "GET /fade_index HTTP/1.1" 200 -
+2023-10-18 14:34:09,269 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:34:09] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 14:34:09,424 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:34:09] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 14:34:09,428 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:34:09] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 14:34:09,430 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:34:09] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-18 14:36:23,375 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:36:23] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-18 14:36:23,389 [DEBUG] - WE MADE IT HERE !
+2023-10-18 14:36:23,566 [DEBUG] - [512, 768]
+2023-10-18 14:38:30,281 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:38:30] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-18 14:38:30,399 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:38:30] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-18 14:38:30,755 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:38:30] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 14:38:30,768 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:38:30] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-18 14:38:30,770 [INFO] - 192.168.0.107 - - [18/Oct/2023 14:38:30] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-19 00:11:58,946 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-10-19 00:11:58,947 [INFO] - [33mPress CTRL+C to quit[0m
+2023-10-19 00:11:58,955 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-19 00:12:00,420 [WARNING] -  * Debugger is active!
+2023-10-19 00:12:00,422 [INFO] -  * Debugger PIN: 558-910-445
+2023-10-19 00:12:10,929 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:10] "GET / HTTP/1.1" 200 -
+2023-10-19 00:12:11,208 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:11] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-10-19 00:12:11,215 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:11] "[35m[1mGET /static/assets/2b39e147-d3d3-470f-97ff-e1efb0d9ca30.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:12:11,243 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:11] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-10-19 00:12:11,328 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-19 00:12:11,337 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:11] "[35m[1mGET /static/assets/2b39e147-d3d3-470f-97ff-e1efb0d9ca30.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:12:11,410 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:11] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-19 00:12:11,499 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:11] "[35m[1mGET /static/assets/2b39e147-d3d3-470f-97ff-e1efb0d9ca30.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:12:15,230 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:15] "GET /fade_index HTTP/1.1" 200 -
+2023-10-19 00:12:15,354 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:15] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-19 00:12:15,397 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:15] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:12:15,436 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:15] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:12:15,449 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:15] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-19 00:12:15,492 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:15] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:12:15,533 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:15] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:12:15,543 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-19 00:12:15,544 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:15] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-19 00:12:15,607 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:15] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:12:15,633 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:12:15] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:13:41,640 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:13:41] "GET /fade_index HTTP/1.1" 200 -
+2023-10-19 00:13:41,864 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:13:41] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-19 00:13:41,982 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:13:41] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-19 00:14:33,863 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:14:33] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-10-19 00:14:33,868 [DEBUG] - WE MADE IT HERE !
+2023-10-19 00:14:33,983 [DEBUG] - [512, 682]
+2023-10-19 00:16:06,000 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:16:06] "GET /frame_final_output HTTP/1.1" 200 -
+2023-10-19 00:16:06,161 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:16:06] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-19 00:16:06,171 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:16:06] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:16:06,176 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:16:06] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:16:06,319 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:16:06] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:16:06,328 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:16:06] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-19 00:16:06,341 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:16:06] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:16:06,409 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:16:06] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 00:16:06,419 [INFO] - 127.0.0.1 - - [19/Oct/2023 00:16:06] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-19 03:54:15,380 [INFO] - 127.0.0.1 - - [19/Oct/2023 03:54:15] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-10-22 17:12:30,956 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-10-22 17:12:30,958 [INFO] - [33mPress CTRL+C to quit[0m
+2023-10-22 17:12:30,960 [INFO] -  * Restarting with stat
+2023-10-22 17:12:32,180 [WARNING] -  * Debugger is active!
+2023-10-22 17:12:32,182 [INFO] -  * Debugger PIN: 613-364-985
+2023-10-22 17:13:13,024 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:13:13] "GET / HTTP/1.1" 200 -
+2023-10-22 17:13:13,705 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:13:13] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-10-22 17:13:13,720 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:13:13] "[35m[1mGET /static/assets/result_cl.mp4 HTTP/1.1[0m" 206 -
+2023-10-22 17:13:13,975 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:13:13] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-22 17:13:13,981 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-22 17:13:14,051 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:13:14] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-22 17:13:34,517 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:13:34] "GET /overlay_index HTTP/1.1" 200 -
+2023-10-22 17:18:37,181 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:18:37] "[32mGET /commando HTTP/1.1[0m" 302 -
+2023-10-22 17:18:37,277 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:18:37] "[35m[1mGET /mpegit?video=static%2Fimages%2Fbackgrounds%2F6800x512_text04_6800_output.mp4 HTTP/1.1[0m" 500 -
+2023-10-22 17:18:37,505 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:18:37] "GET /mpegit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-10-22 17:18:37,556 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:18:37] "GET /mpegit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-10-22 17:18:37,865 [INFO] - 192.168.0.107 - - [22/Oct/2023 17:18:37] "GET /mpegit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-10-28 22:50:28,348 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-10-28 22:50:28,349 [INFO] - [33mPress CTRL+C to quit[0m
+2023-10-28 22:50:28,361 [INFO] -  * Restarting with watchdog (inotify)
+2023-10-28 22:50:29,941 [WARNING] -  * Debugger is active!
+2023-10-28 22:50:29,942 [INFO] -  * Debugger PIN: 162-596-186
+2023-10-28 22:50:38,876 [INFO] - 127.0.0.1 - - [28/Oct/2023 22:50:38] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-10-28 22:50:39,088 [INFO] - 127.0.0.1 - - [28/Oct/2023 22:50:39] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-10-28 22:50:39,089 [INFO] - 127.0.0.1 - - [28/Oct/2023 22:50:39] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-10-28 22:50:39,117 [INFO] - 127.0.0.1 - - [28/Oct/2023 22:50:39] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-10-28 22:50:39,202 [INFO] - 127.0.0.1 - - [28/Oct/2023 22:50:39] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-10-31 05:59:43,591 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-10-31 05:59:43,592 [INFO] - [33mPress CTRL+C to quit[0m
+2023-10-31 05:59:43,593 [INFO] -  * Restarting with stat
+2023-10-31 05:59:44,628 [WARNING] -  * Debugger is active!
+2023-10-31 05:59:44,700 [INFO] -  * Debugger PIN: 419-856-576
+2023-10-31 06:00:13,634 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:13] "GET / HTTP/1.1" 200 -
+2023-10-31 06:00:13,771 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:13] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-10-31 06:00:13,809 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:13] "[35m[1mGET /static/assets/result_indian.mp4 HTTP/1.1[0m" 206 -
+2023-10-31 06:00:13,820 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:13] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-10-31 06:00:13,966 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:13] "[35m[1mGET /static/assets/result_indian.mp4 HTTP/1.1[0m" 206 -
+2023-10-31 06:00:13,998 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-10-31 06:00:14,073 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:14] "[35m[1mGET /static/assets/result_indian.mp4 HTTP/1.1[0m" 206 -
+2023-10-31 06:00:14,117 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:14] "GET /favicon.ico HTTP/1.1" 200 -
+2023-10-31 06:00:14,198 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:14] "[35m[1mGET /static/assets/result_indian.mp4 HTTP/1.1[0m" 206 -
+2023-10-31 06:00:21,807 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:21] "GET /search HTTP/1.1" 200 -
+2023-10-31 06:00:21,917 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:21] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:00:22,003 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:22] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-31 06:00:31,332 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:31] "POST /search HTTP/1.1" 200 -
+2023-10-31 06:00:31,424 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:31] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:00:31,463 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:00:31] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-10-31 06:01:05,188 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:01:05] "GET /search HTTP/1.1" 200 -
+2023-10-31 06:01:12,428 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:01:12] "GET /append_notes HTTP/1.1" 200 -
+2023-10-31 06:01:12,519 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:01:12] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:02:24,778 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:02:24] "POST /append_notes HTTP/1.1" 200 -
+2023-10-31 06:02:27,398 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:02:27] "GET /append_notes HTTP/1.1" 200 -
+2023-10-31 06:02:30,152 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:02:30] "GET /append_notes HTTP/1.1" 200 -
+2023-10-31 06:02:30,244 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:02:30] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:03:07,210 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:03:07] "POST /append_notes HTTP/1.1" 200 -
+2023-10-31 06:03:09,392 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:03:09] "GET /append_notes HTTP/1.1" 200 -
+2023-10-31 06:03:11,016 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:03:11] "GET /append_notes HTTP/1.1" 200 -
+2023-10-31 06:03:11,116 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:03:11] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:03:40,947 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:03:40] "POST /append_notes HTTP/1.1" 200 -
+2023-10-31 06:03:43,112 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:03:43] "GET /append_notes HTTP/1.1" 200 -
+2023-10-31 06:03:44,600 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:03:44] "GET /append_notes HTTP/1.1" 200 -
+2023-10-31 06:03:44,687 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:03:44] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:04:20,047 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:04:20] "POST /append_notes HTTP/1.1" 200 -
+2023-10-31 06:04:22,035 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:04:22] "GET /append_notes HTTP/1.1" 200 -
+2023-10-31 06:04:23,318 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:04:23] "GET /append_notes HTTP/1.1" 200 -
+2023-10-31 06:04:23,433 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:04:23] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:04:58,624 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:04:58] "POST /append_notes HTTP/1.1" 200 -
+2023-10-31 06:05:00,391 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:05:00] "GET /append_notes HTTP/1.1" 200 -
+2023-10-31 06:05:02,700 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:05:02] "GET /search HTTP/1.1" 200 -
+2023-10-31 06:05:02,787 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:05:02] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:05:21,195 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:05:21] "POST /search HTTP/1.1" 200 -
+2023-10-31 06:05:21,295 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:05:21] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:09:20,639 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:09:20] "POST /search HTTP/1.1" 200 -
+2023-10-31 06:09:20,672 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:09:20] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:09:26,331 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:09:26] "GET /search HTTP/1.1" 200 -
+2023-10-31 06:09:29,086 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:09:29] "GET /search HTTP/1.1" 200 -
+2023-10-31 06:09:29,112 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:09:29] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:10:42,110 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:10:42] "GET /search HTTP/1.1" 200 -
+2023-10-31 06:10:42,138 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:10:42] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:10:43,942 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:10:43] "GET / HTTP/1.1" 200 -
+2023-10-31 06:10:44,049 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:10:44] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-10-31 06:10:44,082 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:10:44] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-10-31 06:10:44,265 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:10:44] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-10-31 06:10:44,272 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:10:44] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-10-31 06:10:44,288 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:10:44] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-10-31 06:11:10,079 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:11:10] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-10-31 06:11:10,082 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:11:10] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-10-31 06:11:22,247 [INFO] - 127.0.0.1 - - [31/Oct/2023 06:11:22] "GET /resize/ HTTP/1.1" 200 -
+2023-11-01 06:29:35,578 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-11-01 06:29:35,579 [INFO] - [33mPress CTRL+C to quit[0m
+2023-11-01 06:29:35,579 [INFO] -  * Restarting with stat
+2023-11-01 06:29:36,625 [WARNING] -  * Debugger is active!
+2023-11-01 06:29:36,625 [INFO] -  * Debugger PIN: 419-856-576
+2023-11-01 06:29:43,876 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:43] "POST /upload HTTP/1.1" 200 -
+2023-11-01 06:29:55,186 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:55] "GET / HTTP/1.1" 200 -
+2023-11-01 06:29:55,279 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:55] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 06:29:55,280 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:55] "[35m[1mGET /static/assets/258d9f58-9c72-4d38-a1f8-4f63bb0c86a4.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:29:55,353 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:55] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-01 06:29:55,362 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:55] "[35m[1mGET /static/assets/258d9f58-9c72-4d38-a1f8-4f63bb0c86a4.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:29:55,423 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:55] "[35m[1mGET /static/assets/258d9f58-9c72-4d38-a1f8-4f63bb0c86a4.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:29:55,449 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:55] "[35m[1mGET /static/assets/258d9f58-9c72-4d38-a1f8-4f63bb0c86a4.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:29:55,510 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:55] "[35m[1mGET /static/assets/258d9f58-9c72-4d38-a1f8-4f63bb0c86a4.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:29:55,543 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:55] "[35m[1mGET /static/assets/258d9f58-9c72-4d38-a1f8-4f63bb0c86a4.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:29:55,553 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:29:55] "[35m[1mGET /static/assets/258d9f58-9c72-4d38-a1f8-4f63bb0c86a4.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:30:01,659 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:30:01] "GET /overlay_index HTTP/1.1" 200 -
+2023-11-01 06:31:19,946 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:31:19] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-11-01 06:31:19,953 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:31:19] "GET /show_result?video_path=static%2Fvideos%2Foutput.mp4 HTTP/1.1" 200 -
+2023-11-01 06:31:19,993 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:31:19] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 06:31:20,000 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:31:20] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:31:20,014 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:31:20] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-01 06:31:20,038 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:31:20] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:31:20,072 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:31:20] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:31:20,170 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:31:20] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:34:20,959 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:20] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:34:32,706 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:32] "GET / HTTP/1.1" 200 -
+2023-11-01 06:34:32,832 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:32] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 06:34:32,849 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:32] "[35m[1mGET /static/assets/20231015-185922.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:34:32,892 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:32] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-01 06:34:32,910 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:32] "[35m[1mGET /static/assets/20231015-185922.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:34:32,988 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:32] "[35m[1mGET /static/assets/20231015-185922.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:34:32,991 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:32] "[35m[1mGET /static/assets/20231015-185922.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:34:33,092 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:33] "[35m[1mGET /static/assets/20231015-185922.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:34:33,118 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:33] "[35m[1mGET /static/assets/20231015-185922.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:34:33,121 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:34:33] "[35m[1mGET /static/assets/20231015-185922.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:37:45,618 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:45] "GET /fade_index HTTP/1.1" 200 -
+2023-11-01 06:37:45,749 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:45] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 06:37:45,758 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:45] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:37:45,765 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:45] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:37:45,815 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:45] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:37:45,815 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:45] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:37:45,823 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:45] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-01 06:37:46,012 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:46] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:37:46,015 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:46] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:37:46,049 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:46] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:37:46,054 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:46] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:37:46,058 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:46] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 06:37:46,114 [INFO] - 127.0.0.1 - - [01/Nov/2023 06:37:46] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 08:30:48,208 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:30:48] "GET / HTTP/1.1" 200 -
+2023-11-01 08:30:48,352 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:30:48] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-11-01 08:30:48,515 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:30:48] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-11-01 08:30:50,023 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-11-01 08:30:50,042 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:30:50] "[35m[1mGET /static/assets/258d9f58-9c72-4d38-a1f8-4f63bb0c86a4.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 08:30:50,218 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:30:50] "[35m[1mGET /static/assets/258d9f58-9c72-4d38-a1f8-4f63bb0c86a4.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 08:30:50,234 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:30:50] "GET /favicon.ico HTTP/1.1" 200 -
+2023-11-01 08:30:50,300 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:30:50] "[35m[1mGET /static/assets/258d9f58-9c72-4d38-a1f8-4f63bb0c86a4.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 08:32:04,439 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:32:04] "GET / HTTP/1.1" 200 -
+2023-11-01 08:32:04,519 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:32:04] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-11-01 08:32:04,654 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:32:04] "[35m[1mGET /static/assets/9173f0ac-ef34-4a6d-9a83-fa09fd7b3500.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 08:32:04,664 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:32:04] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-11-01 08:32:04,791 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:32:04] "[35m[1mGET /static/assets/9173f0ac-ef34-4a6d-9a83-fa09fd7b3500.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 08:32:04,935 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:32:04] "[35m[1mGET /static/assets/9173f0ac-ef34-4a6d-9a83-fa09fd7b3500.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 08:33:36,181 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:33:36] "GET /append_notes HTTP/1.1" 200 -
+2023-11-01 08:33:36,415 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:33:36] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-11-01 08:33:36,512 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:33:36] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-01 08:35:06,314 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:06] "POST /append_notes HTTP/1.1" 200 -
+2023-11-01 08:35:10,509 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:10] "GET /append_notes HTTP/1.1" 200 -
+2023-11-01 08:35:17,520 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:17] "GET /search HTTP/1.1" 200 -
+2023-11-01 08:35:17,792 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:17] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 08:35:17,818 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:17] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-01 08:35:30,548 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:30] "POST /search HTTP/1.1" 200 -
+2023-11-01 08:35:30,674 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:30] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 08:35:30,691 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:30] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-01 08:35:40,385 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:40] "[35m[1mGET /mpegit HTTP/1.1[0m" 500 -
+2023-11-01 08:35:40,532 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:40] "GET /mpegit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-11-01 08:35:40,534 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:40] "GET /mpegit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-11-01 08:35:40,594 [INFO] - 192.168.0.107 - - [01/Nov/2023 08:35:40] "GET /mpegit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-11-01 11:01:18,652 [INFO] - 192.168.0.108 - - [01/Nov/2023 11:01:18] "GET / HTTP/1.1" 200 -
+2023-11-01 11:01:19,245 [INFO] - 192.168.0.108 - - [01/Nov/2023 11:01:19] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-11-01 11:01:19,786 [INFO] - 192.168.0.108 - - [01/Nov/2023 11:01:19] "[35m[1mGET /static/assets/3d80f739-03cd-4cae-b1d0-660816d03107.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 11:01:19,800 [INFO] - 192.168.0.108 - - [01/Nov/2023 11:01:19] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-11-01 22:31:17,224 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 22:31:17,528 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:17,543 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-01 22:31:17,560 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:17,569 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:17,670 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:17,749 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:17,959 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:17,957 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-11-01 22:31:17,963 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "GET /favicon.ico HTTP/1.1" 200 -
+2023-11-01 22:31:17,991 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:17,998 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:17] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:18,023 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:18] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:19,002 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:19,034 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:19] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:19,121 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:19,148 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:31:29,759 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:29] "GET /fade_index HTTP/1.1" 200 -
+2023-11-01 22:31:30,057 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:31:30] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 22:33:59,522 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:33:59] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-11-01 22:33:59,529 [DEBUG] - WE MADE IT HERE !
+2023-11-01 22:33:59,761 [DEBUG] - [512, 768]
+2023-11-01 22:36:57,168 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "GET /frame_final_output HTTP/1.1" 200 -
+2023-11-01 22:36:57,221 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 22:36:57,229 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:36:57,246 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "GET /static/assets/framed_final_output.mp4 HTTP/1.1" 200 -
+2023-11-01 22:36:57,272 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:36:57,280 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:36:57,292 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:36:57,299 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:36:57,344 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:36:57,358 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:36:57,370 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:36:57] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:53:56,323 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:53:56] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,076 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "GET /fade_index HTTP/1.1" 200 -
+2023-11-01 22:54:19,297 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 22:54:19,299 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,303 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,375 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,376 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,414 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,460 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,481 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,498 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,791 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,809 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,818 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,891 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,910 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:54:19,925 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:54:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 22:57:01,795 [INFO] - 127.0.0.1 - - [01/Nov/2023 22:57:01] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-11-01 22:57:01,821 [DEBUG] - WE MADE IT HERE !
+2023-11-01 22:57:02,105 [DEBUG] - [512, 1024]
+2023-11-01 23:01:17,560 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:17] "GET /frame_final_output HTTP/1.1" 200 -
+2023-11-01 23:01:17,675 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:17] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-01 23:01:17,717 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:17] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 23:01:17,758 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:17] "GET /static/assets/framed_final_output.mp4 HTTP/1.1" 200 -
+2023-11-01 23:01:17,799 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:17] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 23:01:17,809 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:17] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 23:01:17,889 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:17] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 23:01:17,912 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:17] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 23:01:17,925 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:17] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 23:01:18,118 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:18] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-01 23:01:18,391 [INFO] - 127.0.0.1 - - [01/Nov/2023 23:01:18] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-11 22:29:24,792 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-11-11 22:29:24,793 [INFO] - [33mPress CTRL+C to quit[0m
+2023-11-11 22:29:24,794 [INFO] -  * Restarting with stat
+2023-11-11 22:29:25,779 [WARNING] -  * Debugger is active!
+2023-11-11 22:29:25,845 [INFO] -  * Debugger PIN: 129-368-297
+2023-11-11 22:30:18,640 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:30:18] "GET / HTTP/1.1" 200 -
+2023-11-11 22:30:18,798 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:30:18] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-11-11 22:30:18,854 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:30:18] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-11-11 22:30:19,048 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:30:19] "[35m[1mGET /static/assets/04950eff-63d9-4307-88b7-0027302b3a19.mp4 HTTP/1.1[0m" 206 -
+2023-11-11 22:30:19,112 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-11-11 22:30:19,115 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:30:19] "[35m[1mGET /static/assets/04950eff-63d9-4307-88b7-0027302b3a19.mp4 HTTP/1.1[0m" 206 -
+2023-11-11 22:30:19,168 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:30:19] "[35m[1mGET /static/assets/04950eff-63d9-4307-88b7-0027302b3a19.mp4 HTTP/1.1[0m" 206 -
+2023-11-11 22:30:19,295 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:30:19] "GET /favicon.ico HTTP/1.1" 200 -
+2023-11-11 22:30:41,052 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:30:41] "GET /overlay_index HTTP/1.1" 200 -
+2023-11-11 22:32:27,167 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:32:27] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-11-11 22:32:27,270 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:32:27] "GET /show_result?video_path=static%2Fvideos%2Foutput.mp4 HTTP/1.1" 200 -
+2023-11-11 22:32:27,332 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:32:27] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-11 22:32:27,596 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:32:27] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-11 22:32:27,620 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:32:27] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-11 22:32:27,743 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:32:27] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-11 22:32:27,767 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:32:27] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-11 22:32:44,565 [INFO] - 192.168.0.108 - - [11/Nov/2023 22:32:44] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:18:10,323 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:18:10] "GET / HTTP/1.1" 200 -
+2023-11-12 01:18:10,758 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:18:10] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 01:18:12,271 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:18:12] "[35m[1mGET /static/assets/9173f0ac-ef34-4a6d-9a83-fa09fd7b3500.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:18:12,464 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:18:12] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 01:18:12,574 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:18:12] "[35m[1mGET /static/assets/9173f0ac-ef34-4a6d-9a83-fa09fd7b3500.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:18:12,820 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:18:12] "[35m[1mGET /static/assets/9173f0ac-ef34-4a6d-9a83-fa09fd7b3500.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:18:19,649 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:18:19] "[35m[1mGET /static/assets/9173f0ac-ef34-4a6d-9a83-fa09fd7b3500.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:24:04,016 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:24:04] "GET /fade_index HTTP/1.1" 200 -
+2023-11-12 01:24:04,336 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:24:04] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 01:24:04,393 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:24:04] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:24:04,397 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:24:04] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:24:04,438 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:24:04] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 01:24:04,571 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:24:04] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:24:04,571 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:24:04] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:24:04,686 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:24:04] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:24:04,686 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:24:04] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:26:04,600 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:26:04] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-11-12 01:26:04,607 [DEBUG] - WE MADE IT HERE !
+2023-11-12 01:26:04,785 [DEBUG] - [768, 1344]
+2023-11-12 01:29:40,805 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:29:40] "GET /frame_final_output HTTP/1.1" 200 -
+2023-11-12 01:29:41,047 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:29:41] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 01:29:41,138 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:29:41] "[35m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:29:41,142 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:29:41] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:29:41,167 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:29:41] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 01:31:15,393 [DEBUG] - WE MADE IT HERE !
+2023-11-12 01:31:15,560 [DEBUG] - [768, 1344]
+2023-11-12 01:31:23,585 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:31:23] "[31m[1mGET /static/assets/framed_final_output.mp4 HTTP/1.1[0m" 416 -
+2023-11-12 01:31:34,219 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:31:34] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:32:14,443 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:32:14] "GET /fade_index HTTP/1.1" 200 -
+2023-11-12 01:32:14,611 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:32:14] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 01:32:14,904 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:32:14] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 01:32:19,864 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:32:19] "GET /fade_index HTTP/1.1" 200 -
+2023-11-12 01:32:19,964 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:32:19] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 01:32:19,995 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:32:19] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:32:20,136 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:32:20] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 01:32:30,633 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:32:30] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 01:34:08,223 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:34:08] "[32mPOST /generate_video HTTP/1.1[0m" 302 -
+2023-11-12 01:34:08,236 [DEBUG] - WE MADE IT HERE !
+2023-11-12 01:34:08,406 [DEBUG] - [512, 768]
+2023-11-12 01:35:46,042 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:35:46] "GET /frame_final_output HTTP/1.1" 200 -
+2023-11-12 01:36:16,225 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:36:16] "GET /frame_final_output HTTP/1.1" 200 -
+2023-11-12 01:36:16,355 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:36:16] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 01:36:16,431 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:36:16] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 01:36:16,468 [INFO] - 192.168.0.107 - - [12/Nov/2023 01:36:16] "[35m[1mGET /static/assets/final_output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:14:51,889 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:14:51] "GET / HTTP/1.1" 200 -
+2023-11-12 06:14:51,978 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:14:51] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-11-12 06:14:52,050 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:14:52] "[35m[1mGET /static/assets/result_cl.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:14:52,146 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:14:52] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-11-12 06:14:52,151 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:14:52] "[35m[1mGET /static/assets/result_cl.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:14:52,351 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:14:52] "[35m[1mGET /static/assets/result_cl.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:14:52,393 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:14:52] "[35m[1mGET /static/assets/result_cl.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:14:52,678 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-11-12 06:14:52,709 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:14:52] "GET /favicon.ico HTTP/1.1" 200 -
+2023-11-12 06:16:08,683 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:16:08] "GET /search HTTP/1.1" 200 -
+2023-11-12 06:16:08,731 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:16:08] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 06:16:31,383 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:16:31] "POST /search HTTP/1.1" 200 -
+2023-11-12 06:16:31,418 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:16:31] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 06:16:47,042 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:16:47] "POST /search HTTP/1.1" 200 -
+2023-11-12 06:16:47,085 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:16:47] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 06:17:02,526 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:17:02] "POST /search HTTP/1.1" 200 -
+2023-11-12 06:17:02,561 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:17:02] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 06:17:32,857 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:17:32] "GET / HTTP/1.1" 200 -
+2023-11-12 06:17:32,880 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:17:32] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 06:17:32,976 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:17:32] "[35m[1mGET /static/assets/3d80f739-03cd-4cae-b1d0-660816d03107.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:17:33,084 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:17:33] "[35m[1mGET /static/assets/3d80f739-03cd-4cae-b1d0-660816d03107.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:17:33,187 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:17:33] "[35m[1mGET /static/assets/3d80f739-03cd-4cae-b1d0-660816d03107.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:17:33,285 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:17:33] "[35m[1mGET /static/assets/3d80f739-03cd-4cae-b1d0-660816d03107.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:17:49,044 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:17:49] "GET /overlay_index HTTP/1.1" 200 -
+2023-11-12 06:18:42,753 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:18:42] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-11-12 06:18:42,771 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:18:42] "GET /show_result?video_path=static%2Fvideos%2Foutput.mp4 HTTP/1.1" 200 -
+2023-11-12 06:18:42,964 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:18:42] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:18:42,965 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:18:42] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 06:18:43,066 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:18:43] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:18:43,167 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:18:43] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:18:43,479 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:18:43] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:18:43,683 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:18:43] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:18:48,431 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:18:48] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:19:28,024 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:19:28] "GET / HTTP/1.1" 200 -
+2023-11-12 06:19:28,080 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:19:28] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 06:19:28,082 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:19:28] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:19:28,798 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:19:28] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:19:29,003 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:19:29] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:19:32,464 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:19:32] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:19:42,672 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:19:42] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:19:42,907 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:19:42] "GET /static/assets/20231015-183633.mp4 HTTP/1.1" 200 -
+2023-11-12 06:19:43,111 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:19:43] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:19:43,114 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:19:43] "[35m[1mGET /static/assets/20231015-183633.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:20:27,153 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:20:27] "GET /overlay_index HTTP/1.1" 200 -
+2023-11-12 06:22:07,084 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:22:07] "[32mPOST /overlay_video HTTP/1.1[0m" 302 -
+2023-11-12 06:22:07,103 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:22:07] "GET /show_result?video_path=static%2Fvideos%2Foutput.mp4 HTTP/1.1" 200 -
+2023-11-12 06:22:07,194 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:22:07] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 06:22:07,197 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:22:07] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:22:07,403 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:22:07] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:22:07,500 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:22:07] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:22:13,134 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:22:13] "[35m[1mGET /static/videos/output.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:24:25,607 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:25] "GET / HTTP/1.1" 200 -
+2023-11-12 06:24:25,738 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:25] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 06:24:25,808 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:25] "[35m[1mGET /static/assets/cd963a62-26bb-40a4-8dc0-2e6825b046a0.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:24:26,013 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:26] "[35m[1mGET /static/assets/cd963a62-26bb-40a4-8dc0-2e6825b046a0.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:24:26,215 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:26] "[35m[1mGET /static/assets/cd963a62-26bb-40a4-8dc0-2e6825b046a0.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:24:26,319 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:26] "[35m[1mGET /static/assets/cd963a62-26bb-40a4-8dc0-2e6825b046a0.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:24:26,527 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:26] "[35m[1mGET /static/assets/cd963a62-26bb-40a4-8dc0-2e6825b046a0.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:24:26,734 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:26] "[35m[1mGET /static/assets/cd963a62-26bb-40a4-8dc0-2e6825b046a0.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:24:26,837 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:26] "[35m[1mGET /static/assets/cd963a62-26bb-40a4-8dc0-2e6825b046a0.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:24:26,957 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:26] "[35m[1mGET /static/assets/cd963a62-26bb-40a4-8dc0-2e6825b046a0.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:24:41,425 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:41] "[35m[1mGET /static/assets/cd963a62-26bb-40a4-8dc0-2e6825b046a0.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:24:41,529 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:24:41] "[35m[1mGET /static/assets/cd963a62-26bb-40a4-8dc0-2e6825b046a0.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:25:52,243 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:25:52] "GET / HTTP/1.1" 200 -
+2023-11-12 06:25:52,371 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:25:52] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 06:25:52,451 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:25:52] "[35m[1mGET /static/assets/20231015-135132.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:25:53,399 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-11-12 06:25:53,401 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:25:53] "GET /favicon.ico HTTP/1.1" 200 -
+2023-11-12 06:25:56,060 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:25:56] "[35m[1mGET /static/assets/20231015-135132.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:25:56,071 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:25:56] "[35m[1mGET /static/assets/20231015-135132.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 06:26:16,468 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:26:16] "[35m[1mGET /mpegit HTTP/1.1[0m" 500 -
+2023-11-12 06:26:16,603 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:26:16] "GET /mpegit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-11-12 06:26:16,605 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:26:16] "GET /mpegit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-11-12 06:26:16,709 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:26:16] "GET /mpegit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-11-12 06:26:16,807 [INFO] - 192.168.0.110 - - [12/Nov/2023 06:26:16] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-12 07:22:30,362 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:22:30] "GET / HTTP/1.1" 200 -
+2023-11-12 07:22:30,679 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:22:30] "GET /static/css/body.css HTTP/1.1" 200 -
+2023-11-12 07:22:30,736 [INFO] - circle_center, circle_radius:,(8, 8) 5
+2023-11-12 07:22:30,743 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:22:30] "GET /favicon.ico HTTP/1.1" 200 -
+2023-11-12 07:22:30,753 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:22:30] "[35m[1mGET /static/assets/voice-for_avatar_learn-python-synced-emsex.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:22:30,784 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:22:30] "GET /static/assets/MemMaker_background.png HTTP/1.1" 200 -
+2023-11-12 07:22:33,506 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:22:33] "[35m[1mGET /mpegit HTTP/1.1[0m" 500 -
+2023-11-12 07:22:33,591 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:22:33] "GET /mpegit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-11-12 07:22:33,592 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:22:33] "GET /mpegit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-11-12 07:22:33,679 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:22:33] "GET /mpegit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-11-12 07:22:33,681 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:22:33] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-12 07:24:25,865 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-11-12 07:24:25,866 [INFO] - [33mPress CTRL+C to quit[0m
+2023-11-12 07:24:25,867 [INFO] -  * Restarting with stat
+2023-11-12 07:24:26,961 [WARNING] -  * Debugger is active!
+2023-11-12 07:24:26,962 [INFO] -  * Debugger PIN: 129-368-297
+2023-11-12 07:29:09,277 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/step_nine', reloading
+2023-11-12 07:29:09,499 [INFO] -  * Restarting with stat
+2023-11-12 07:29:10,566 [WARNING] -  * Debugger is active!
+2023-11-12 07:29:10,567 [INFO] -  * Debugger PIN: 129-368-297
+2023-11-12 07:29:16,689 [INFO] -  * Detected change in '/home/jack/Desktop/LearnFlask_step-by-step/step_nine', reloading
+2023-11-12 07:29:16,886 [INFO] -  * Restarting with stat
+2023-11-12 07:29:17,910 [WARNING] -  * Debugger is active!
+2023-11-12 07:29:17,913 [INFO] -  * Debugger PIN: 129-368-297
+2023-11-12 07:29:28,052 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:28] "[35m[1mGET /mpegit HTTP/1.1[0m" 500 -
+2023-11-12 07:29:28,146 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:28] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-12 07:29:28,161 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:28] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-12 07:29:28,186 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:28] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-12 07:29:36,332 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:36] "GET / HTTP/1.1" 200 -
+2023-11-12 07:29:36,369 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:36] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 07:29:36,417 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:36] "[35m[1mGET /static/assets/407ec246-2ddd-47bb-8b5e-e7e670a375eb.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:29:36,470 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:36] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 07:29:36,497 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:36] "[35m[1mGET /static/assets/407ec246-2ddd-47bb-8b5e-e7e670a375eb.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:29:36,519 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:36] "[35m[1mGET /static/assets/407ec246-2ddd-47bb-8b5e-e7e670a375eb.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:29:38,936 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:38] "[35m[1mGET /mpegit HTTP/1.1[0m" 500 -
+2023-11-12 07:29:39,000 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:39] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-12 07:29:39,004 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:39] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-12 07:29:39,151 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:29:39] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-12 07:30:25,972 [INFO] - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5100
+ * Running on http://192.168.0.108:5100
+2023-11-12 07:30:25,974 [INFO] - [33mPress CTRL+C to quit[0m
+2023-11-12 07:30:25,977 [INFO] -  * Restarting with stat
+2023-11-12 07:30:27,016 [WARNING] -  * Debugger is active!
+2023-11-12 07:30:27,016 [INFO] -  * Debugger PIN: 129-368-297
+2023-11-12 07:30:35,610 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:30:35] "GET / HTTP/1.1" 200 -
+2023-11-12 07:30:35,679 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:30:35] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 07:30:35,736 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:30:35] "[35m[1mGET /static/assets/649a24f1-1d53-42d9-80d5-cdbb0d1ff3a2.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:30:35,753 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:30:35] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 07:30:35,769 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:30:35] "[35m[1mGET /static/assets/649a24f1-1d53-42d9-80d5-cdbb0d1ff3a2.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:30:35,811 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:30:35] "[35m[1mGET /static/assets/649a24f1-1d53-42d9-80d5-cdbb0d1ff3a2.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:30:40,386 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:30:40] "[35m[1mGET /mpegit HTTP/1.1[0m" 500 -
+2023-11-12 07:30:40,467 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:30:40] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-11-12 07:30:40,469 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:30:40] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-11-12 07:30:40,525 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:30:40] "[36mGET /mpegit?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-11-12 07:32:10,881 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:32:10] "GET /mpegit HTTP/1.1" 200 -
+2023-11-12 07:32:10,943 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:32:10] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 07:32:11,041 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:32:11] "[35m[1mGET /static/AI_Creates_a_Violent_Storm.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:32:11,068 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:32:11] "[33mGET /static/video HTTP/1.1[0m" 404 -
+2023-11-12 07:32:11,085 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:32:11] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 07:32:15,017 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:32:15] "[35m[1mGET /static/AI_Creates_a_Violent_Storm.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:32:59,854 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:32:59] "GET /mpegit HTTP/1.1" 200 -
+2023-11-12 07:32:59,953 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:32:59] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 07:32:59,984 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:32:59] "[33mGET /static/video HTTP/1.1[0m" 404 -
+2023-11-12 07:33:00,027 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:33:00] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 07:33:18,363 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:33:18] "GET /mpegit HTTP/1.1" 200 -
+2023-11-12 07:33:18,425 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:33:18] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 07:33:18,442 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:33:18] "[33mGET /static/video HTTP/1.1[0m" 404 -
+2023-11-12 07:33:18,452 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:33:18] "[35m[1mGET /static/AI_Creates_a_Violent_Storm.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:33:18,473 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:33:18] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 07:35:24,648 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:35:24] "GET /mpegit HTTP/1.1" 200 -
+2023-11-12 07:35:24,681 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:35:24] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 07:35:24,794 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:35:24] "[33mGET /static/video HTTP/1.1[0m" 404 -
+2023-11-12 07:35:24,800 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:35:24] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 07:35:24,843 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:35:24] "[35m[1mGET /static/AI_Creates_a_Violent_Storm.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:35:34,384 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:35:34] "[35m[1mGET /static/AI_Creates_a_Violent_Storm.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:36:18,082 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:36:18] "POST /upload HTTP/1.1" 200 -
+2023-11-12 07:36:23,036 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:36:23] "GET /mpegit HTTP/1.1" 200 -
+2023-11-12 07:36:23,116 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:36:23] "[36mGET /static/css/body.css HTTP/1.1[0m" 304 -
+2023-11-12 07:36:23,120 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:36:23] "[35m[1mGET /static/AI_Creates_a_Violent_Storm.mp4 HTTP/1.1[0m" 206 -
+2023-11-12 07:36:23,126 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:36:23] "[33mGET /static/video HTTP/1.1[0m" 404 -
+2023-11-12 07:36:23,179 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:36:23] "[36mGET /static/assets/MemMaker_background.png HTTP/1.1[0m" 304 -
+2023-11-12 07:36:27,448 [INFO] - 127.0.0.1 - - [12/Nov/2023 07:36:27] "[35m[1mGET /static/AI_Creates_a_Violent_Storm.mp4 HTTP/1.1[0m" 206 -

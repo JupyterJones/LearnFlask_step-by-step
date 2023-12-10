@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Gallery</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .gallery img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+<p>highly detailed, super sharp image, oil painting of a Beautiful female insect full body half cyborg, half insect  full-length portrait| detailed face symmetric steampunk insect cyborg-insect intricate detailed| to scale| hyperrealistic| cinematic lighting art style of H.R. Giger mdjrny-v4 style</p><br/>
+<p>full body cyborg| full-length portrait| detailed face| symmetric| steampunk| cyberpunk| cyborg| intricate detailed| to scale| hyperrealistic| cinematic lighting| digital art| concept art| mdjrny-v4 style</p><br  />
+  <a href="https://huggingface.co/Joeythemonster/anything-midjourney-v-4-1" target="_blank">huggingface.co Joeythemonster anything-midjourney-v-4-1</a><br />
+
+  <a href="https://huggingface.co/prompthero/openjourney" target="_blank">prompthero_openjourney</a><br />
+  <div class="gallery">  <hr>
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-11_541678334055.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-11_541678334078.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-11_551678334151.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-11_561678334164.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-11_561678334181.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-11_561678334193.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-11_571678334230.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_051678334733.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_061678334817.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_071678334865.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_081678334899.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_091678334970.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_091678334991.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_101678335046.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_111678335061.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_131678335188.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_131678335208.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_231678335831.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_251678335940.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_411678336908.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_441678337099.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_461678337205.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_491678337366.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_511678337495.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_521678337523.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_551678337745.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-12_591678337950.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_001678338057.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_051678338311.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_051678338328.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_071678338471.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_091678338540.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_101678338606.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_131678338832.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_141678338877.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_181678339124.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_191678339152.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_201678339216.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_201678339238.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_221678339321.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_221678339366.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_241678339475.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_261678339595.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_271678339665.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_301678339805.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_321678339941.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_371678340253.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_381678340331.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_391678340360.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_401678340437.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_411678340513.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_451678340737.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_481678340907.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_491678340985.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_501678341057.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_511678341098.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_531678341217.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-13_591678341579.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_131678342432.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_171678342626.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_231678343038.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_251678343140.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_251678343153.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_291678343398.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_301678343414.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_331678343621.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_361678343787.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_371678343844.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_401678344025.jpg">
+    <img src="/mnt/HDD500/collections/march09/1080_2023-03-09-14_411678344079.jpg">
+  </div>
+</body>
+</html>

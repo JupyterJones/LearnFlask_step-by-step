@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Crop Images</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/body.css') }}" />
+  <style>.cntr{
+    text-align: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }</style>
+</head>
+
+<body>
+
+  <div class="header">
+    <a class="note" href="{{ url_for('command') }}">Command</a>&nbsp;&nbsp;
+    |&nbsp;&nbsp;
+    <a class="note" href="{{ url_for('index') }}">HOME (index.html)</a>
+    <h2>Image Cropping</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <label for="videoFile">Select an MP4 file:</label>
+      <input type="file" name="videoFile" accept=".mp4" id="videoFile" />
+      <input type="submit" value="Upload" />
+    </form>
+  </div>
+  <div class="columns">
+    <div class="column left cntr">
+      <h2>Cropped Image Preview</h2>
+      <!--img src="{{ image_path }}" alt="Cropped Image"-->
+      <form method="POST" action="{{ url_for('command') }}">
+        <input type="hidden" name="image_path" value="{{ image_path }}" />
+        <label for="x">X Coordinate: </label>
+        <input type="number" name="x" required /><br />
+        <label for="duration">Duration: </label>
+        <input type="number" name="y" required /><br />
+        <label for="width">Width: </label>
+        <input type="number" name="width" required /><br />
+        <label for="height">Height: </label>
+        <input type="number" name="height" required /><br />
+        <input type="submit" value="Crop and Save" />
+      </form>
+      <form method="POST" action="{{ url_for('mpegit') }}">
+        <input type="submit" value="Move Cropped Image" />
+      </form>
+
+      <video width="640" height="auto" controls>
+        <source src="{{ url_for('static', filename='videos/Final2.mp4') }}" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <div class="column right cntr">
+      <a class="note" href="{{ url_for('commando') }}">CommandO</a><br />
+      
+      <h2>Cropped Image Preview</h2>
+      {% if image_path %}
+      <img src="{{ image_path }}" alt="Cropped Image" />
+      <form method="POST" action="{{ url_for('commando') }}">
+        <input type="hidden" name="image_path" value="{{ image_path }}" />
+        <label for="x">X Coordinate: </label>
+        <input type="number" name="x" required /><br />
+        <label for="y">Y Coordinate: </label>
+        <input type="number" name="y" required /><br />
+        <label for="width">Width: </label>
+        <input type="number" name="width" required /><br />
+        <label for="height">Height: </label>
+        <input type="number" name="height" required /><br />
+        <input type="submit" value="Crop and Save" />
+      </form>
+      <form method="POST" action="{{ url_for('mpegit') }}">
+        <input type="submit" value="Move Cropped Image" />
+      </form>
+      {% endif %}
+      <video width="640" height="auto" controls>
+        <source src="{{ url_for('static', filename='video = 'static/create_with_sound/create_with_sound.mp4') }}" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</body>
+
+</html>

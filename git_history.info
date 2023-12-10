@@ -1,0 +1,106 @@
+
+git add .
+git commit -m "update added step_eight"
+git push
+
+Enumerating objects: 226, done.
+Counting objects: 100% (226/226), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (205/205), done.
+Writing objects: 100% (213/213), 306.82 MiB | 2.11 MiB/s, done.
+Total 213 (delta 25), reused 0 (delta 0)
+remote: Resolving deltas: 100% (25/25), completed with 5 local objects.
+remote: error: Trace: 6bdca2e89198784273c9d2b3910662bee0f3722beefbd079b0d9b038a4151c5d
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File app.log is 161.11 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To github.com:JupyterJones/LearnFlask_step-by-step.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'git@github.com:JupyterJones/LearnFlask_step-by-step.git'
+
+rm app.log
+
+(base) jack@jack-Desktop:~/Desktop/LearnFlask_step-by-step$ git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch -r app.log' --prune-empty --tag-name-filter cat -- --all
+WARNING: git-filter-branch has a glut of gotchas generating mangled history
+	 rewrites.  Hit Ctrl-C before proceeding to abort, then use an
+	 alternative filtering tool such as 'git filter-repo'
+	 (https://github.com/newren/git-filter-repo/) instead.  See the
+	 filter-branch manual page for more details; to squelch this warning,
+	 set FILTER_BRANCH_SQUELCH_WARNING=1.
+Proceeding with filter-branch...
+
+Rewrite 33419e011b87cc3a74ff4077f98613d8e05f4153 (1/4) (0 seconds pasRewrite ed23d95be1b94734b8c1279b45cb1e8539da0af2 (2/4) (0 seconds pasRewrite fafb67fe8f36be1eacaff55a733380d34a075f3e (3/4) (0 seconds passed, remaining 0 predicted)    rm 'app.log'
+Rewrite 1190be774e0dd017585f8c0fbaa59abe7abf5b74 (4/4) (0 seconds passed, remaining 0 predicted)    
+Ref 'refs/heads/main' was rewritten
+Ref 'refs/remotes/origin/main' was rewritten
+WARNING: Ref 'refs/remotes/origin/main' is unchanged
+
+(base) jack@jack-Desktop:~/Desktop/LearnFlask_step-by-step$ git add .
+(base) jack@jack-Desktop:~/Desktop/LearnFlask_step-by-step$ git commit -m "update added step_eight"
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+(base) jack@jack-Desktop:~/Desktop/LearnFlask_step-by-step$ git push origin --force --all
+
+Enumerating objects: 396, done.
+Counting objects: 100% (396/396), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (382/382), done.
+Writing objects: 100% (396/396), 615.72 MiB | 2.09 MiB/s, done.
+Total 396 (delta 40), reused 2 (delta 0)
+remote: Resolving deltas: 100% (40/40), done.
+To github.com:JupyterJones/LearnFlask_step-by-step.git
+ + ed23d95...6e76e13 main -> main (forced update)
+ 
+(base) jack@jack-Desktop:~/Desktop/LearnFlask_step-by-step$ history 20 >>git_history.info
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+38037  note -s git
+38038  git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch -r ven/' --prune-empty --tag-name-filter cat -- --all
+38039  git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch -r app.log' --prune-empty --tag-name-filter cat -- --all
+38040  git add .
+38041  git commit -m "update added step_eight"
+38042  git push
+38043  git push origin --force --all
+38044  git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch -r app.log' --prune-empty --tag-name-filter cat -- --all
+38045  git add .
+38046  git commit -m "update added step_eight"
+38047  git push origin --force --all
+38048  history 20 >>git_history.info
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------
+origin --force --all
+Enumerating objects: 396, done.
+Counting objects: 100% (396/396), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (382/382), done.
+Writing objects: 100% (396/396), 615.72 MiB | 2.09 MiB/s, done.
+Total 396 (delta 40), reused 2 (delta 0)
+remote: Resolving deltas: 100% (40/40), done.
+To github.com:JupyterJones/LearnFlask_step-by-step.git
+ + ed23d95...6e76e13 main -> main (forced update)
